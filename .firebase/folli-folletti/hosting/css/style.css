@@ -524,6 +524,37 @@ section#slider .main-slider-button-next.swiper-button-disabled,
   }
 }
 
+
+
+/* 4.2 Slider2 Section
+/*----------------------------------------------*/
+section#slider2 .banner-content {
+  width: 40%;
+}
+
+section#slider2 .main-slider-button-next,
+.main-slider-button-prev {
+  z-index: 111111;
+  height: fit-content;
+  opacity: 0.9;
+}
+
+section#slider2 .main-slider-button-next.swiper-button-disabled,
+.main-slider-button-prev.swiper-button-disabled {
+  opacity: 0.6;
+}
+
+.banner-title {
+  color: #FFF;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.27);
+}
+
+@media only screen and (max-width: 999px) {
+  section#slider2 .banner-content {
+    width: 66%;
+  }
+}
+
 /* floating icons */
 .icon-float1 {
   font-size: 100px;

@@ -62,9 +62,21 @@
     });
   }
 
+
   $(document).ready(function () {
 
-    var swiper = new Swiper(".slider", {
+    console.log('calcolami')
+
+
+  /*   var swiper = new Swiper(".slider", {
+      effect: "fade",
+      navigation: {
+        nextEl: ".main-slider-button-next",
+        prevEl: ".main-slider-button-prev",
+      },
+    }); */
+
+    var swiper = new Swiper(".uber-uns-slider", {
       effect: "fade",
       navigation: {
         nextEl: ".main-slider-button-next",

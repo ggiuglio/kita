@@ -22,6 +22,17 @@
   
 </svelte:head>
 
+<script>
+  import "$lib/i18n/i18n";
+
+  import { t, locales, locale, isLoading as loadingTranslations } from "svelte-i18n";
+
+  const onChangeLanguage = (language) => {
+    $locale = language
+  }
+
+  console.log("lang", $locale)
+</script>
 
 <header >
   <nav class="header-top bg-dark py-1">
@@ -60,6 +71,18 @@
                   </svg> </a>
               </li>  -->
 
+              <li>
+                <div>
+                  <select
+                    bind:value={$locale}
+                    on:change={(e) => onChangeLanguage(e.target.value)}
+                   >
+                    {#each $locales as value}
+                      <option {value}>{value}</option>
+                    {/each}
+                  </select>
+                </div>
+              </li>
           </ul>
           </div>
       </div>
@@ -89,9 +112,9 @@
               </li>
               <li class="nav-item px-3 py-2 py-lg-0 dropdown">
               <a class="nav-link p-0 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                  aria-expanded="false">Über uns</a>
+                  aria-expanded="false"> {$t("header.about-us")}</a>
               <ul class="dropdown-menu dropdown-menu-end animate slide mt-3 border-0 shadow">
-                  <li class="py-1"><a  onClick="location.href='verein'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas" target="_blank">Verein </a></li>
+                  <li class="py-1"><a  onClick="location.href='verein'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas" target="_blank">Verein</a></li>
                   <li class="py-1"><a  onClick="location.href='partner'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Partner </a></li>
                   <li class="py-1"><a onClick="location.href='spenden'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Spenden </a></li>
                   <li class="py-1"><a  onClick="location.href='geschichte'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Geschichte </a></li>

@@ -64,9 +64,6 @@
     <section id="verein" class="pt-5">
       <div class="container padding-medium pt-0">
   
-      <div class="banner-content text-center m-auto" data-aos="zoom-out">
-        <h2 class="display-5 mb-4"> title</h2>
-      </div>
       <p class="mb-4">
         Alle Eltern der Kinder, die die Kita Folli Folletti besuchen, sind Mitglieder des Vereins Folli Folletti, der sich mehrmals im Jahr trifft.
  

@@ -39,9 +39,11 @@
             <div class="social">
             <ul class="info d-flex flex-wrap list-unstyled m-0">
                 <li class="social-icon text-white d-flex align-items-center me-3">
-                <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464" target="_blank"> <svg width="18" height="18">
+                <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464" target="_blank">
+                  Facebook  
+                  <svg width="20" height="20" class="align-middle">
                     <use xlink:href="#facebook"></use>
-                    </svg> </a>
+                  </svg> </a>
                 </li>
                 <!-- <li class="social-icon text-white d-flex align-items-center me-3">
                 <a href="#"> <svg width="18" height="18">
@@ -145,7 +147,8 @@
             <ul class="d-flex justify-content-center list-unstyled gap-2 m-0">
               <li class="social">
                 <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464">
-                  <iconify-icon class="social-icon" icon="ri:facebook-fill"></iconify-icon>
+                  Facebook
+                  <iconify-icon class="social-icon align-bottom p-1" icon="ri:facebook-fill"></iconify-icon>
                 </a>
               </li>
              <!--  <li class="social">

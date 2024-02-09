@@ -47,7 +47,7 @@
         </div>
 
         <div class="banner-content text-center m-auto" data-aos="zoom-out">
-            <h2 class="banner-title display-1 text-white mb-5">Anmeldung</h2>
+            <h2 class="banner-title display-1 text-white mb-5">Impressum</h2>
         </div>
       
       </div>

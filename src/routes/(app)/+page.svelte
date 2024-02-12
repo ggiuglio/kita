@@ -1,11 +1,10 @@
 <script>
+	import { goto } from "$app/navigation";
   import * as j from "jquery";
-
 
   import { onMount } from 'svelte';
 
   let root;
-
 
   onMount(async () => {
     var swiper = new Swiper(".slider", {
@@ -61,7 +60,7 @@
 
           <div class="banner-content text-center m-auto" data-aos="zoom-out">
             <h2 class="banner-title display-1 text-white mb-4">Folli Folletti</h2>
-            <a href="uber-uns" class="btn btn-primary mt-3">Über uns</a>
+            <a on:click={() => goto('uber-uns')} href="#" class="btn btn-primary mt-3">Über uns</a>
           </div>
 
         </div>

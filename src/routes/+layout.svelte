@@ -1,3 +1,24 @@
+
+<script>
+  import { browser } from "$app/environment";
+	import { goto } from "$app/navigation";
+import "$lib/i18n/i18n";
+	import { onMount } from "svelte";
+
+  import { t, locales, locale, isLoading as loadingTranslations } from "svelte-i18n";
+
+  onMount(() => {
+    if (localStorage.getItem("language"))
+      $locale = localStorage.getItem("language");
+  });
+
+  const onChangeLanguage = (lang) => {
+    localStorage.setItem("language", lang);
+  };
+
+  $: console.log("lang", $locale);
+</script>
+
 <svelte:head>
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
   <script src="js/jquery-1.11.0.min.js"></script>
@@ -22,17 +43,6 @@
   
 </svelte:head>
 
-<script>
-  import "$lib/i18n/i18n";
-
-  import { t, locales, locale, isLoading as loadingTranslations } from "svelte-i18n";
-
-  const onChangeLanguage = (language) => {
-    $locale = language
-  }
-
-  console.log("lang", $locale)
-</script>
 
 <header >
   <nav class="header-top bg-dark py-1">
@@ -60,16 +70,6 @@
                   <use xlink:href="#facebook"></use>
                 </svg> </a>
               </li>
-              <!-- <li class="social-icon text-white d-flex align-items-center me-3">
-              <a href="#"> <svg width="18" height="18">
-                  <use xlink:href="#instagram"></use>
-                  </svg> </a>
-              </li>
-              <li class="social-icon text-white d-flex align-items-center ">
-              <a href="#"> <svg width="18" height="18">
-                  <use xlink:href="#twitter"></use>
-                  </svg> </a>
-              </li>  -->
 
               <li>
                 <div>
@@ -108,29 +108,27 @@
           <div class="offcanvas-body align-items-center justify-content-end">
           <ul class="navbar-nav mb-2 mb-lg-0">
               <li class="nav-item px-3 py-2 py-lg-0">
-              <a class="nav-link active p-0" aria-current="page" onClick="location.href='/'" href="#" data-bs-dismiss="offcanvas">Home</a>
+              <a class="nav-link active p-0" aria-current="page" on:click={() => goto('/')} href="#" data-bs-dismiss="offcanvas">Home</a>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0 dropdown">
               <a class="nav-link p-0 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                   aria-expanded="false"> {$t("header.about-us")}</a>
               <ul class="dropdown-menu dropdown-menu-end animate slide mt-3 border-0 shadow">
-                  <li class="py-1"><a  onClick="location.href='verein'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas" target="_blank">Verein</a></li>
-                  <li class="py-1"><a  onClick="location.href='partner'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Partner </a></li>
-                  <li class="py-1"><a onClick="location.href='spenden'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Spenden </a></li>
-                  <li class="py-1"><a  onClick="location.href='geschichte'" href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Geschichte </a></li>
-                  
-                  <!--  <li class="py-1"><a href="styles.html" class="dropdown-item">Styles <span
-                      class="badge bg-secondary">Pro</span></a></li> -->
+                  <li class="py-1"><a on:click={() => goto('verein')}  href="#" class="dropdown-item" data-bs-dismiss="offcanvas" target="_blank">Verein</a></li>
+                  <li class="py-1"><a on:click={() => goto('partner')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Partner </a></li>
+                  <li class="py-1"><a on:click={() => goto('/spenden')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Spenden </a></li>
+                  <li class="py-1"><a on:click={() => goto('geschichte')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Geschichte </a></li>
               </ul>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-              <a class="nav-link p-0" onClick="location.href='konzeption'" href="#" data-bs-dismiss="offcanvas">Konzeption</a>
+              <a class="nav-link p-0" on:click={() => {goto('/konzeption')}} href="#">Konzeption</a>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-              <a class="nav-link p-0" onClick="location.href='anmeldung'" href="#" data-bs-dismiss="offcanvas">Anmeldung</a>
+              <a class="nav-link p-0" on:click={() => goto('anmeldung')} href="#" data-bs-dismiss="offcanvas">Anmeldung</a>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-              <a class="nav-link p-0" onClick="location.href='impressum'" href="#" data-bs-dismiss="offcanvas">Impressum</a>
+              <a class="nav-link p-0" on:click={() => goto("/impressum")} href="#" data-bs-dismiss="offcanvas">Impressum</a>
+
               </li>
               
           </ul>

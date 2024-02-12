@@ -1,8 +1,21 @@
 {
     "header": {
-        "about-us": "Chi siamo"
+        "about-us": "Chi siamo",
+        "association": "Associazione",
+        "partner": "Partner",
+        "donations": "Donazioni",
+        "history": "Storia"
     },
     "home": {
-        "test": "Prova"
+        "about-us":
+        {
+            "title": "Folli Folletti, Più Che Un Asilo",
+            "text": "Se cercate un asilo che richieda il minimo impegno da parte dei genitori, Folli Folletti sicuramente non fa per voi.",
+            "text-2": "Se invece volete",
+            "tlist-1": "partecipare attivamente alla vita dell’asilo",
+            "list-2": "contribuire affinché l’asilo sia un’esperienza unica e memorabile per i vostri figli",
+            "list-3": "fare parte di una “famiglia” internazionale di bambini, genitori ed educatori",
+            "close": "… allora continuate a leggere."
+        }
     }
 }

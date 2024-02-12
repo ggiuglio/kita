@@ -2,20 +2,10 @@
     import * as j from "jquery";
     import { onMount } from 'svelte';
   
-    onMount(async () => {
-  
-      AOS.init({
-        duration: 1000,
-        once: true,
-    })
-  
-  
-    });
-  
   </script>
   
   <div>
-    <section id="spenden-img">
+    <section id="impressum-img">
         <div class="d-flex jarallax position-relative"
         style="background-image: url(images/slider-image1.jpg); background-size: cover; background-repeat: no-repeat; height: 80vh; background-position: center; height: 80vh;">
 
@@ -48,44 +38,32 @@
         </div>
 
         <div class="banner-content text-center m-auto" data-aos="zoom-out">
-            <h2 class="banner-title display-1 text-white mb-5">Spenden</h2>
+            <h2 class="banner-title display-1 text-white mb-5">Impressum</h2>
         </div>
       
       </div>
     </section>
   
-    <section id="spenden" class="pt-5">
-      <div class="container padding-medium pt-0">
+    <section id="impressum" class="pt-5">
+      <div class="container padding-medium pt-0 m-auto">
   
-      <div class="banner-content text-center m-auto" data-aos="zoom-out">
-        <h2 class="display-5 mb-4">
-            Bisherige Spender/Sponsoren
-        </h2>
-      </div>
-      <p class="mb-4">
-        Durch die Mitwirkung vieler Partner konnten wir wichtige Projekte umsetzen und die Kita weiter ausbauen: siehe die Seite unserer
-        <a href="/partner">Partner</a>
-      </p>
-
-      <div class="banner-content text-center m-auto" data-aos="zoom-out">
-        <h2 class="display-5 mb-4 pt-5">
-            Spender und Sponsorensuche
-        </h2>
-      </div>
-      <p>   
-        Als gemeinnütziger Verein wird das Projekt „Folli Folletti“ hauptsächlich von uns Eltern getragen.
-         Darüber hinaus freuen wir uns über Menschen, die unsere Idee der deutsch-italienischen Kinder-Begegnungsstätte unterstützen.
-      </p>
-      <p>
-        Helfen können Sie uns durch:
-      </p>
-      <ul>
-        <li>
-            <b>Eine einmalige Spende.</b> Bitte kontaktieren Sie dafür unseren Vorstand / Die Bankverbindung lautet
-
-        </li>
-      </ul>
-
+        <div>Folli Folletti</div>
+        <div class="mt-2"> Cantianstraße 15</div>
+        <div class="mt-2"> 10437 Berlin</div>
+        <div class="mt-2">E-mail: info@folli-folletti.de</div>
+        <div class="mt-2">
+            <ul class="list-unstyled gap-2 m-0">
+                <li class="social">
+                    Folge uns auf  
+                  <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464">
+                    Facebook
+                    <iconify-icon class="social-icon p-1 align-bottom" icon="ri:facebook-fill"></iconify-icon>
+                  </a>
+                </li>
+            </ul>
+           
+        </div>
+        
       </div>
     </section>
   </div>

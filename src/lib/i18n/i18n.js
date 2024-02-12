@@ -10,10 +10,10 @@ import de from "./de.json";
 
 
 addMessages("Italiano", it);
-addMessages("Deutsche", de);
+addMessages("Deutsch", de);
 
 
 init({
-  fallbackLocale: "Deutsche",
-  initialLocale: "Deutsche",
+  fallbackLocale: "Deutsch",
+  initialLocale: "Deutsch",
 });

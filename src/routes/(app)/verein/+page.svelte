@@ -3,20 +3,10 @@
     import { onMount } from 'svelte';
   
     onMount(async () => {
-  
       AOS.init({
         duration: 1000,
         once: true,
-    })
-  
-   var swiper2 = new Swiper(".slider2", {
-        effect: "fade",
-        navigation: {
-          nextEl: ".main-slider-button-next",
-          prevEl: ".main-slider-button-prev",
-        },
-      }); 
-  
+      });
     });
   
   </script>

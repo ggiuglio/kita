@@ -1,14 +1,13 @@
 <script>
     import * as j from "jquery";
     import { onMount } from 'svelte';
-  
+
     onMount(async () => {
   
       AOS.init({
         duration: 1000,
         once: true,
     })
-  
   
     });
   

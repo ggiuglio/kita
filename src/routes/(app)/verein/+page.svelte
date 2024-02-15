@@ -54,100 +54,118 @@
   
     <section id="verein" class="pt-5">
       <div class="container padding-medium pt-0">
-  
-      <p class="mb-4">
-        Alle Eltern der Kinder, die die Kita Folli Folletti besuchen, sind Mitglieder des Vereins Folli Folletti, der sich mehrmals im Jahr trifft.
- 
-        Was ist eine Kita Elterniniative?
-         
-        Das ist ein Kindergarten, der von Eltern gegründet wurde und geleitet wird. Im Fall von Folli Folletti engagieren sich die Eltern jeden Monat rund zwei Stunden lang für den Kindergarten.
-         
-        Was unterscheidet eine Elterninitiative von anderen öffentlichen Kindergärten?
-         
-        Die Eltern sind für den Betrieb des Kindergartens verantwortlich.
-         
-        Was sind die Aufgaben der Eltern?
-         
-        Die Aufgaben der Eltern sind vielfältig und werden zu Beginn eines jeden Schuljahres gleichmäßig verteilt. Zu den Aufgaben gehören:
-        
-      </p>
 
-        <ul>
+        <h2 class="display-5">
+            {$t("association.title-1")}
+        </h2>
+
+        <div class={"mb-4"}>
+            {$t("association.text-1")}
+        </div>
+
+        <h2 class="h-6">
+            {$t("association.title-2")}
+
+        </h2>
+        <div class={"mb-4"}>
+            {$t("association.text-2")}
+        </div>
+
+        <h2 class="h-6">
+            {$t("association.title-3")}
+
+        </h2>
+        <div class={"mb-4"}>
+            {$t("association.text-3")}
+        </div>
+
+        <h2 class="h-6">
+            {$t("association.title-4")}
+
+        </h2>
+        <div class={"mb-2"}>
+            {$t("association.text-4")}
+        </div>
+
+        <ul class={"mb-4"}>
             <li>
-                Suche nach Assistenten, Vertretern, Praktikanten
+                {$t("association.list-1")}
             </li>
             <li>
-                Kontakte mit Institutionen, Arbeitsverträge, rechtliche Fragen
+                {$t("association.list-2")}
             </li>
             <li>
-                Internetauftritt
+                {$t("association.list-3")}
             </li>
             <li>
-                Übersetzungen
+                {$t("association.list-4")}
             </li>
             <li>
-                Organisation des Caterings für die Mittagsverpflegung 
+                {$t("association.list-5")}
             </li>
             <li>
-                Einkaufen
+                {$t("association.list-6")}
             </li>
             <li>
-                Organisation von Elternschichten
+                {$t("association.list-7")}
             </li>
             <li>
-                Kalender
+                {$t("association.list-8")}
             </li>
             <li>
-                Organisation der Reinigung
+                {$t("association.list-9")}
             </li>
             <li>
-                Organisation von Festen
+                {$t("association.list-10")}
             </li>
             <li>
-                Einkauf von Geschenken
+                {$t("association.list-11")}
             </li>
             <li>
-                Reparaturen und Instandhaltung
+                {$t("association.list-12")}
             </li>
             <li>
-                Raumgestaltung
+                {$t("association.list-13")}
             </li>
             <li>
-                Waschen der Lätzchen
+                {$t("association.list-14")}
             </li>
             <li>
-                Elterndienst
+                {$t("association.list-15")}
             </li>
         </ul> 
-      <p>
-         
-        Was ist ein Vorstand?
-         
-        Vorstand bedeutet "Verwaltungsrat". Der Vorstand besteht aus vier Elternteilen, die jährlich von der Vereinsversammlung gewählt werden.
-         
-        Die Hauptaufgaben sind:
-    </p>
-    <ul>
+        <h2 class="h-6">
+            {$t("association.title-5")}
+        </h2>
+
+        <div>
+            {$t("association.text-5")}
+        </div>
+        <div class="mb-2">
+            {$t("association.text-6")}
+        </div>
+     
+    <ul class="mb-4">
         <li>
-            Finanzen
+            {$t("association.list-15")}
         </li>
         <li>
-            Interne und externe Kommunikation
+            {$t("association.list-16")}
         </li>
         <li>
-            Verteilung der Projekte und Auswahl der Kinder
+            {$t("association.list-17")}
         </li>
         <li>
-            Beziehungen zum Personal (Personalwesen)
+            {$t("association.list-18")}
         </li>
     </ul>
          
-    <p>
-        Was ist ein Elterndienst?
-            
-        An einem Nachmittag im Monat (mittwochs) sind die Erzieherinnen und Erzieher bei einer Sitzung außerhalb des Kindergartens beschäftigt. Daher sind zwei Eltern etwa drei Stunden lang für die beiden Kindergruppen und den Kindergarten verantwortlich.
-
-    </p>
+    <h2 class="h-6">
+        {$t("association.title-7")}
+    </h2>
+    <div>   
+        {$t("association.text-7")}
+    </div>
   
       </div>
     </section>

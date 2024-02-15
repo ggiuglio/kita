@@ -2,6 +2,7 @@
     import * as j from "jquery";
     import { onMount } from 'svelte';
     import { t } from "svelte-i18n";
+    import { goto } from "$app/navigation";
 
     onMount(async () => {
       AOS.init({
@@ -57,52 +58,57 @@
   
       <div class="banner-content text-center m-auto" data-aos="zoom-out">
         <h2 class="display-5 mb-4">
-            Bisherige Spender/Sponsoren
+          {$t("partner.title")}
         </h2>
       </div>
-      <p class="mb-4">
-        Durch die Mitwirkung folgender Partner konnten wir wichtige Projekte umsetzen und die Kita weiter ausbauen:
-      </p>
 
-        <ul>
-            <li>
-                Stiftung Pfefferwerk – Fehrbelliner Straße 92  –
-                 10119 Berlin  – Tel. 030/ 67 30 54 54/-5  – Fax  030/ 67 30 54 56 www.stpw.org 
-                 info@stpw.org
-            </li>
-            <li>
-                Veolia Stiftung Lindencorso – Unter den Linden 21- 10117 Berlin T: +49 30 53 65 82 40
-                 mailto:info@veolia-stiftung.de http://www.veolia-stiftung.de 
-                 http://twitter.com/VeoliaStiftung http://www.facebook.com/VeoliaStiftung
-            </li>
-            <li>
-                IVM Chemicals GmbH – Johannes-Kepler-Str. 3    D-71083 Herrenberg – Fon: +49 (0) 7032 2006-20
-                 – Fax: +49 (0) 7032 2006-8820 – http://www.ivmchemicals.de/
-            </li>
-            <li>
-                Verba Volant – Verein zur Förderung mehrsprachiger Bildung e.V. http://www.verbavolant-ev.de
-            </li>
-            <li>
-                Si – Scuola Italiana Centro culturale italo-tedesco/Deutsch-italienisches Kulturzentrum Dunckerstr.
-                 62 10439 Berlin 0049 30 44036975 
-                 nfo@si-scuolaitaliana.de www.si-scuolaitaliana.de
-            </li>
-            <li>
-                Deutsch-italienische Handelskammer – Märkisches Ufer 28 – 10179 Berlin 
-                – 030/24 31 04 0 – info@itkam.de
-            </li>
-            <li>
-                Mondo Azul http://www.mundoazul.de
-            </li>
-            <li>
-                Mondo Libro http://www.mondolibro.de
-            </li>
-        </ul> 
+      <div class="mb-4">
+        {$t("partner.text-1")}
+      </div>
+
+      <ul>
+          <li>
+              Stiftung Pfefferwerk – Fehrbelliner Straße 92  –
+                10119 Berlin  – Tel. 030/ 67 30 54 54/-5  – Fax  030/ 67 30 54 56 www.stpw.org 
+                info@stpw.org
+          </li>
+          <li>
+              Veolia Stiftung Lindencorso – Unter den Linden 21- 10117 Berlin T: +49 30 53 65 82 40
+                mailto:info@veolia-stiftung.de http://www.veolia-stiftung.de 
+                http://twitter.com/VeoliaStiftung http://www.facebook.com/VeoliaStiftung
+          </li>
+          <li>
+              IVM Chemicals GmbH – Johannes-Kepler-Str. 3    D-71083 Herrenberg – Fon: +49 (0) 7032 2006-20
+                – Fax: +49 (0) 7032 2006-8820 – http://www.ivmchemicals.de/
+          </li>
+          <li>
+              Verba Volant – Verein zur Förderung mehrsprachiger Bildung e.V. http://www.verbavolant-ev.de
+          </li>
+          <li>
+              Si – Scuola Italiana Centro culturale italo-tedesco/Deutsch-italienisches Kulturzentrum Dunckerstr.
+                62 10439 Berlin 0049 30 44036975 
+                nfo@si-scuolaitaliana.de www.si-scuolaitaliana.de
+          </li>
+          <li>
+              Deutsch-italienische Handelskammer – Märkisches Ufer 28 – 10179 Berlin 
+              – 030/24 31 04 0 – info@itkam.de
+          </li>
+          <li>
+              Mondo Azul http://www.mundoazul.de
+          </li>
+          <li>
+              Mondo Libro http://www.mondolibro.de
+          </li>
+      </ul> 
+     
       <p>   
-        Die Kinder, Eltern und Erzieher der Kita „Folli Folletti“ möchten sich herzlich bei allen bisherigen Sponsoren bedanken!
+        {$t("partner.text-2")}
       </p>
       <p>
-        Helfen können Sie uns durch: siehe Seite Spenden
+        {$t("partner.text-3")} 
+        <a on:click={() => goto("/spenden")} href="#">
+          {$t("partner.link-1")}
+        </a>
       </p>
 
       </div>

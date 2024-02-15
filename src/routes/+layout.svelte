@@ -70,7 +70,6 @@ import "$lib/i18n/i18n";
                   <use xlink:href="#facebook"></use>
                 </svg> </a>
               </li>
-
               <li>
                 <div>
                   <select class="rounded px-1 h6 mb-0"
@@ -172,27 +171,6 @@ import "$lib/i18n/i18n";
             <iconify-icon class="social-icon align-bottom p-1" icon="ri:facebook-fill"></iconify-icon>
           </a>
         </li>
-        <!--  <li class="social">
-          <a href="#">
-            <iconify-icon class="social-icon" icon="ri:twitter-fill"></iconify-icon>
-          </a>
-        </li>
-        <li class="social">
-          <a href="#">
-            <iconify-icon class="social-icon" icon="ri:pinterest-fill"></iconify-icon>
-          </a>
-        </li>
-        <li class="social">
-          <a href="#">
-            <iconify-icon class="social-icon" icon="ri:instagram-fill"></iconify-icon>
-          </a>
-        </li>
-        <li class="social">
-          <a href="#">
-            <iconify-icon class="social-icon" icon="ri:youtube-fill"></iconify-icon>
-          </a>
-        </li> -->
-
       </ul>
     </div>
   </div>

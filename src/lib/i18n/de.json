@@ -25,6 +25,46 @@
             "list-3": "Teil einer internationalen 'Familie' von Kindern, Eltern und Erziehern sein wollen",
             "close": "... dann lesen Sie weiter."
         }
-       
+    },
+    "association": {
+        "title-1" : "Der Verein Folli Folletti",
+        "text-1": "Alle Eltern der Kinder, die die Kita Folli Folletti besuchen, sind Mitglieder des Vereins Folli Folletti, der sich mehrmals im Jahr trifft.",
+        "title-2" : "Was ist eine Kita Elterniniative?",
+        "text-2": "Das ist ein Kindergarten, der von Eltern gegründet wurde und geleitet wird. Im Fall von Folli Folletti engagieren sich die Eltern jeden Monat rund zwei Stunden lang für den Kindergarten.",
+        "title-3" : "Was unterscheidet eine Elterninitiative von anderen öffentlichen Kindergärten?",
+        "text-3": "Die Eltern sind für den Betrieb des Kindergartens verantwortlich.",
+        "title-4": "Was sind die Aufgaben der Eltern?",
+        "text-4": "Die Aufgaben der Eltern sind vielfältig und werden zu Beginn eines jeden Schuljahres gleichmäßig verteilt. Zu den Aufgaben gehören:",
+        "list-1": "Suche nach Assistenten, Vertretern, Praktikanten",
+        "list-2": "Kontakte mit Institutionen, Arbeitsverträge, rechtliche Fragen",
+        "list-3": "Internetauftritt",
+        "list-4": "Übersetzungen",
+        "list-5": "Organisation des Caterings für die Mittagsverpflegung",
+        "list-6": "Einkaufen",
+        "list-7": "Organisation von Elternschichten",
+        "list-8": "Kalender",
+        "list-9": "Organisation der Reinigung",
+        "list-10": "Organisation von Festen",
+        "list-11": "Einkauf von Geschenken",
+        "list-12": "Reparaturen und Instandhaltung",
+        "list-13": "Raumgestaltung",
+        "list-14": "Waschen der Lätzchen",
+        "list-15": "Elterndienst",
+        "title-5": "Was ist ein Vorstand?",
+        "text-5": "Vorstand bedeutet 'Verwaltungsrat'. Der Vorstand besteht aus vier Elternteilen, die jährlich von der Vereinsversammlung gewählt werden.",
+        "text-6": "Die Hauptaufgaben sind:",
+        "list-16": "Finanzen",
+        "list-17": "Interne und externe Kommunikation",
+        "list-18": "Verteilung der Projekte und Auswahl der Kinder",
+        "list-19": "Beziehungen zum Personal (Personalwesen)",
+        "title-7": "Was ist ein Elterndienst?",
+        "text-7": "An einem Nachmittag im Monat (mittwochs) sind die Erzieherinnen und Erzieher bei einer Sitzung außerhalb des Kindergartens beschäftigt. Daher sind zwei Eltern etwa drei Stunden lang für die beiden Kindergruppen und den Kindergarten verantwortlich."
+    },
+    "partner": {
+        "title": "Bisherige Spender / Sponsoren",
+        "text-1": "Durch die Mitwirkung folgender Partner konnten wir wichtige Projekte umsetzen und die Kita weiter ausbauen:",
+        "text-2": "Die Kinder, Eltern und Erzieher der Kita „Folli Folletti“ möchten sich herzlich bei allen bisherigen Sponsoren bedanken!",
+        "text-3": "Helfen können Sie uns durch: siehe Seite",
+        "link-1": "spenden"
     }
 }

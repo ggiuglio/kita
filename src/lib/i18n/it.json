@@ -27,5 +27,46 @@
             "list-3": "fare parte di una “famiglia” internazionale di bambini, genitori ed educatori",
             "close": "… allora continuate a leggere."
         }
+    },
+    "association": {
+        "title-1" : "L’associazione Folli Folletti",
+        "text-1": "Tutti i genitori dei bambini che frequentano l’asilo Folli Folletti fanno parte dell’associazione (in tedesco Verein) Folli Folletti, che si riunisce un paio di volte l’anno.",
+        "title-2" : "Che cos’è una Kita Elterniniative?",
+        "text-2": "È un asilo fondato e gestito dai genitori. Nel caso di Folli Folletti i genitori si impegnano ogni mese a contribuire due ore del proprio tempo all’asilo.",
+        "title-3" : "In che cosa si differenzia dagli altri asili pubblici?",
+        "text-3": "I genitori sono responsabili del funzionamento dell’asilo",
+        "title-4": "Quali sono i compiti dei genitori?",
+        "text-4": "I compiti dei genitori sono vari e vengono distribuiti equamente all’inizio di ogni anno scolastico. Le mansioni includono:",
+        "list-1": "Ricerca di assistenti, supplenti, tirocinanti",
+        "list-2": "Contatti con enti, contratti di lavoro, questioni giuridiche",
+        "list-3": "Pagina web",
+        "list-4": "Traduzioni",
+        "list-5": "Catering pranzo",
+        "list-6": "Acquisti",
+        "list-7": "Organizzazione dei turni dei genitori",
+        "list-8": "Calendario",
+        "list-9": "Organizzazione pulizie",
+        "list-10": "Organizzazione delle feste",
+        "list-11": "Acquisto dei regali",
+        "list-12": "Riparature e manutenzione",
+        "list-13": "Allestimento degli spazi interni",
+        "list-14": "Bucato",
+        "list-15": "Elterndienst",
+        "title-5": "Cos’è il Vorstand?",
+        "text-5": "Vorstand vuol dire consiglio direttivo. I membri del consiglio direttivo sono quattro genitori che vengono eletti ogni anno durante l’assemblea dell’associazione.",
+        "text-6": "I compiti principali sono", 
+        "list-16": "Gestione finanziaria",
+        "list-17": "Comunicazioni interne ed esterne",
+        "list-18": "Distribuzione dei progetti + scelta dei bimbi",
+        "list-19": "Relazioni col personale (risorse umane).",
+        "title-7": "Che cos’è un Elterndienst?",
+        "text-7": "Un pomeriggio al mese (il mercoledì) i genitori prendono il posto degli educatori (che sono impegnati in una riunione fuori dall’asilo) e per circa tre ore sono responsabili dei bambini e dell’asilo."
+    },
+    "partner": {
+        "title": "Partner / Amici",
+        "text-1": "La realizzazione di alcuni progetti importanti e necessari per il nostro asilo 'Folli Folletti' è stata possibile grazie ai contributi offerti dalle seguenti imprese e istituzioni:",
+        "text-2": "A nome dei nostri bambini, l'Associazione ringrazia di tutto cuore i nostri sostenitori!",
+        "text-3": "Potete contribuire a sostenerci in diversi modi: vedi la pagina",
+        "link-1": "donazioni"
     }
 }

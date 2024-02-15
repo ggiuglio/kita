@@ -141,7 +141,7 @@ import "$lib/i18n/i18n";
 <slot />
 
 <footer id="footer" class="bg-gray">
-  <div class="container text-center padding-medium">
+  <div class="container text-center py-4">
     <a class="navbar-brand w-25" href="/">
       <img src="images/folli-folletti-logo.png" style="width: 250px" class="logo img-fluid">
     </a>

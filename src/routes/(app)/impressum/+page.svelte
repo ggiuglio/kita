@@ -46,25 +46,43 @@
     </section>
   
     <section id="impressum" class="pt-5">
-      <div class="container padding-medium pt-0 m-auto">
-  
-        <div>Folli Folletti</div>
-        <div class="mt-2"> Cantianstraße 15</div>
-        <div class="mt-2"> 10437 Berlin</div>
-        <div class="mt-2">E-mail: info@folli-folletti.de</div>
-        <div class="mt-2">
-            <ul class="list-unstyled gap-2 m-0">
-                <li class="social">
-                    Folge uns auf  
-                  <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464">
-                    Facebook
-                    <iconify-icon class="social-icon p-1 align-bottom" icon="ri:facebook-fill"></iconify-icon>
-                  </a>
-                </li>
-            </ul>
-           
+      <div class="container padding-medium pt-2 pb-4 m-auto" >
+
+        <div class="row" style="min-height: 600px;">
+          <div class="col-md-3">
+            <div>Folli Folletti</div>
+            <div class="mt-2"> Cantianstraße 15</div>
+            <div class="mt-2"> 10437 Berlin</div>
+            <div class="mt-2">E-mail: info@folli-folletti.de</div>
+            <div class="mt-2">
+                <ul class="list-unstyled gap-2 m-0">
+                    <li class="social">
+                        Folge uns auf  
+                      <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464">
+                        Facebook
+                        <iconify-icon class="social-icon p-1 align-bottom" icon="ri:facebook-fill"></iconify-icon>
+                      </a>
+                    </li>
+                </ul>
+              
+            </div>
+          </div>
+          <div class="col-md-9">
+            <iframe
+            title="Folli Folletti"
+            style="border: 0; width: 100%; height:100%;"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+            scrolling="no"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            allowfullscreen
+            class="w-full h-full rounded-md"
+            src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyBpFtdVVwt5e3X8yvjybvcCdyAg3c6tUtg&q=Cantianstraße 15, 10437 Berlin`}
+          />
+          </div>
         </div>
-        
       </div>
     </section>
   </div>

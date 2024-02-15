@@ -1,7 +1,7 @@
 <script>
 	import { goto } from "$app/navigation";
   import * as j from "jquery";
-
+  import { t } from "svelte-i18n";
   import { onMount } from 'svelte';
 
   let root;
@@ -60,7 +60,7 @@
 
           <div class="banner-content text-center m-auto" data-aos="zoom-out">
             <h2 class="banner-title display-1 text-white mb-4">Folli Folletti</h2>
-            <a on:click={() => goto('uber-uns')} href="#" class="btn btn-primary mt-3">Über uns</a>
+            <a on:click={() => goto('uber-uns')} href="#" class="btn btn-primary mt-3">{$t("header.about-us")}</a>
           </div>
 
         </div>
@@ -97,7 +97,7 @@
 
           <div class="banner-content text-center m-auto" data-aos="zoom-out">
             <h2 class="banner-title display-1 text-white mb-0">Elterninitiative</h2>
-            <a href="about" class="btn btn-primary mt-3">Über uns</a>
+            <a href="about" class="btn btn-primary mt-3">{$t("header.about-us")}</a>
           </div>
         </div>
         <div class="swiper-slide d-flex jarallax position-relative"
@@ -132,8 +132,8 @@
           </div>
 
           <div class="banner-content text-center m-auto" data-aos="zoom-out">
-            <h2 class="banner-title display-1 text-white mb-0">Più che un asilo</h2>
-            <a href="uber-uns" class="btn btn-primary mt-3">Über uns</a>
+            <h2 class="banner-title display-1 text-white mb-0">{$t("home.more-than")}</h2>
+            <a href="uber-uns" class="btn btn-primary mt-3">{$t("header.about-us")}</a>
           </div>
         </div>
 

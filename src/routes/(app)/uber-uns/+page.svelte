@@ -1,6 +1,7 @@
 <script>
   import * as j from "jquery";
   import { onMount } from 'svelte';
+  import { t } from "svelte-i18n";
 
   onMount(async () => {
     AOS.init({
@@ -45,7 +46,7 @@
         </div>
 
         <div class="banner-content text-center m-auto" data-aos="zoom-out">
-            <h2 class="banner-title display-1 text-white mb-5">Über uns</h2>
+            <h2 class="banner-title display-1 text-white mb-5">{$t("header.about-us")}</h2>
         </div>
       
       </div>

@@ -114,20 +114,20 @@ import "$lib/i18n/i18n";
               <a class="nav-link p-0 dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                   aria-expanded="false"> {$t("header.about-us")}</a>
               <ul class="dropdown-menu dropdown-menu-end animate slide mt-3 border-0 shadow">
-                  <li class="py-1"><a on:click={() => goto('verein')}  href="#" class="dropdown-item" data-bs-dismiss="offcanvas" target="_blank">Verein</a></li>
-                  <li class="py-1"><a on:click={() => goto('partner')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Partner </a></li>
-                  <li class="py-1"><a on:click={() => goto('/spenden')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Spenden </a></li>
-                  <li class="py-1"><a on:click={() => goto('geschichte')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">Geschichte </a></li>
+                  <li class="py-1"><a on:click={() => goto('verein')}  href="#" class="dropdown-item" data-bs-dismiss="offcanvas" target="_blank">{$t("header.association")}</a></li>
+                  <li class="py-1"><a on:click={() => goto('partner')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.partner")} </a></li>
+                  <li class="py-1"><a on:click={() => goto('/spenden')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.donations")} </a></li>
+                  <li class="py-1"><a on:click={() => goto('geschichte')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.history")} </a></li>
               </ul>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-              <a class="nav-link p-0" on:click={() => {goto('/konzeption')}} href="#">Konzeption</a>
+              <a class="nav-link p-0" on:click={() => {goto('/konzeption')}} href="#">{$t("header.concept")} </a>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-              <a class="nav-link p-0" on:click={() => goto('anmeldung')} href="#" data-bs-dismiss="offcanvas">Anmeldung</a>
+              <a class="nav-link p-0" on:click={() => goto('anmeldung')} href="#" data-bs-dismiss="offcanvas">{$t("header.registration")} </a>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">
-              <a class="nav-link p-0" on:click={() => goto("/impressum")} href="#" data-bs-dismiss="offcanvas">Impressum</a>
+              <a class="nav-link p-0" on:click={() => goto("/impressum")} href="#" data-bs-dismiss="offcanvas">{$t("header.contacts")} </a>
 
               </li>
               

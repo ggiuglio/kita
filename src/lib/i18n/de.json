@@ -4,10 +4,17 @@
         "association": "Verein",
         "partner": "Partner",
         "donations": "Spenden",
-        "history": "Geschichte"
-
+        "history": "Geschichte",
+        "concept": "Konzeption",
+        "registration": "Anmeldung",
+        "contacts": "Impressum"
     },
     "home": {
+        "more-than": "Mehr als ein Kindergarten",
+        "playground": "Splieltplatz",
+        "rooms": "Räume",
+        "activity": "Aktivitäten",
+        "trips": "Ausflüge",
         "about-us":
         {
             "title": "Folli Folletti, mehr als ein Kindergarten",

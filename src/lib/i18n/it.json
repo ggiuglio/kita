@@ -4,12 +4,22 @@
         "association": "Associazione",
         "partner": "Partner",
         "donations": "Donazioni",
-        "history": "Storia"
+        "history": "Storia",
+        "concept": "Idea",
+        "registration": "Iscrizione",
+        "contacts": "Contatti"
+
     },
     "home": {
+        "more-than": "Più che un asilo",
+        "playground": "Parco giochi",
+        "rooms": "Scuola",
+        "activity": "Attività",
+        "trips": "Uscite",
         "about-us":
         {
             "title": "Folli Folletti, Più Che Un Asilo",
+            "more-than": "Mehr als ein Kindergarten",
             "text": "Se cercate un asilo che richieda il minimo impegno da parte dei genitori, Folli Folletti sicuramente non fa per voi.",
             "text-2": "Se invece volete",
             "tlist-1": "partecipare attivamente alla vita dell’asilo",

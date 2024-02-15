@@ -73,13 +73,13 @@ import "$lib/i18n/i18n";
 
               <li>
                 <div>
-                  <select
+                  <select class="rounded px-1 h6 mb-0"
                     bind:value={$locale}
                     on:change={(e) => onChangeLanguage(e.target.value)}
                    >
-                    {#each $locales as value}
-                      <option {value}>{value}</option>
-                    {/each}
+                 
+                    <option value="Deutsch">🇩🇪  Deutsch</option>
+                    <option value="Italiano">🇮🇹  Italiano</option>
                   </select>
                 </div>
               </li>

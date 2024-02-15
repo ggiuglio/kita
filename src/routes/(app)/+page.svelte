@@ -158,27 +158,27 @@
         <a href="#" class="categories-item">
         <iconify-icon class="category-icon bg-red text-white p-5 rounded-circle"
             icon="mdi:playground-slide"></iconify-icon>
-        <h2 class="mt-2">Spielplatz</h2>
+        <h2 class="mt-2">{$t("home.playground")}</h2>
         </a>
     </div>
     <div class="col my-4 my-lg-0 text-center">
         <a href="#" class="categories-item">
         <iconify-icon class="category-icon bg-green text-white p-5 rounded-circle"
             icon="material-symbols:house-outline"></iconify-icon>
-        <h2 class="mt-2">Räume</h2>
+        <h2 class="mt-2">{$t("home.rooms")}</h2>
         </a>
     </div>
     <div class="col my-4 my-lg-0 text-center">
         <a href="#" class="categories-item">
         <iconify-icon class="category-icon bg-blue text-white p-5 rounded-circle" icon="mdi:art"></iconify-icon>
-        <h2 class="mt-2">Aktivitäten</h2>
+        <h2 class="mt-2">{$t("home.activity")}</h2>
         </a>
     </div>
     <div class="col my-4 my-lg-0 text-center">
         <a href="#" class="categories-item">
         <iconify-icon class="category-icon bg-yellow text-white p-5 rounded-circle"
             icon="material-symbols:abc-rounded"></iconify-icon>
-        <h2 class="mt-2">Ausflüge </h2>
+        <h2 class="mt-2">{$t("home.trips")} </h2>
         </a>
     </div>
     </div>
@@ -188,45 +188,39 @@
 <section id="about-us">
 <div class="container padding-medium pt-0">
     <div class="row align-items-center">
+      <div class="col-md-6">
+          <div class="imageblock me-md-5">
+          <div class="animated-border">
+              <img src="images/about-img.jpg" alt="img" class="img-fluid rounded-circle ">
+          </div>
+          </div>
+      </div>
 
-    <!-- <div class="col-md-6">
-        <div class="imageblock me-5">
-        <img src="images/about-img.jpg" alt="img" class="img-fluid rounded-pill"
-            style="border: 16px dotted #E3EAF0;">
-        </div>
-    </div> -->
-    <div class="col-md-6">
-        <div class="imageblock me-md-5">
-        <div class="animated-border">
-            <img src="images/about-img.jpg" alt="img" class="img-fluid rounded-circle ">
-        </div>
-        </div>
-    </div>
-
-    <div class="col-md-6 mt-5 mt-md-0">
+      <div class="col-md-6 mt-5 mt-md-0">
         <div class="section-title">
-        <h2 class="display-4 mb-3">Folli Folletti, più che un asilo</h2>
+          <h2 class="display-4 mb-3">{$t("home.about-us.title")}</h2>
         </div>
         <div> 
-            Se cercate un asilo che richieda il minimo impegno da parte dei genitori, Folli Folletti sicuramente non fa per voi. <br/>
-            Se invece volete
-        <ul>
-        <li>
-            partecipare attivamente alla vita dell’asilo
-        </li>
-        <li>
-            contribuire affinché l’asilo sia un’esperienza unica e memorabile per i vostri figli
-        </li>
-        <li>
-            fare parte di una “famiglia” internazionale di bambini, genitori ed educatori
-        </li>
-        </ul>
-        … allora continuate a leggere.
-    
+          <div class="pb-2">
+          {$t("home.about-us.text")}
+          </div>
+          {$t("home.about-us.text-2")}
+          <ul>
+            <li>
+              {$t("home.about-us.list-1")}
+            </li>
+            <li>
+              {$t("home.about-us.list-2")}
+            </li>
+            <li>
+              {$t("home.about-us.list-3")}
+            </li>
+          </ul>
+          {$t("home.about-us.close")}
         </div>
+        
         <a class="btn btn-primary mt-3" href="uber-uns">Über uns</a>
-    </div>
-
+      </div>
     </div>
 </div>
 </section>

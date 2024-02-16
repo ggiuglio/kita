@@ -1,15 +1,8 @@
 <script>
-    import * as j from "jquery";
     import { onMount } from 'svelte';
     import { t } from "svelte-i18n";
+  	import { goto } from "$app/navigation";
 
-    onMount(async () => {
-      AOS.init({
-        duration: 1000,
-        once: true,
-      })
-    });
-  
   </script>
   
   <div>
@@ -57,33 +50,84 @@
   
       <div class="banner-content text-center m-auto" data-aos="zoom-out">
         <h2 class="display-5 mb-4">
-            Bisherige Spender/Sponsoren
+          {($t("donations.title-1"))}
         </h2>
       </div>
+
+
       <p class="mb-4">
-        Durch die Mitwirkung vieler Partner konnten wir wichtige Projekte umsetzen und die Kita weiter ausbauen: siehe die Seite unserer
+        {($t("donations.text-1"))}
         <a href="/partner">Partner</a>
       </p>
 
       <div class="banner-content text-center m-auto" data-aos="zoom-out">
-        <h2 class="display-5 mb-4 pt-5">
-            Spender und Sponsorensuche
+        <h2 class="display-5 mb-4">
+          {($t("donations.title-2"))}
         </h2>
       </div>
-      <p>   
-        Als gemeinnütziger Verein wird das Projekt „Folli Folletti“ hauptsächlich von uns Eltern getragen.
-         Darüber hinaus freuen wir uns über Menschen, die unsere Idee der deutsch-italienischen Kinder-Begegnungsstätte unterstützen.
+
+      <p class="mb-4">
+        {($t("donations.text-2"))}
+        <br />
+        {($t("donations.text-3"))}
       </p>
-      <p>
-        Helfen können Sie uns durch:
-      </p>
+
       <ul>
         <li>
-            <b>Eine einmalige Spende.</b> Bitte kontaktieren Sie dafür unseren Vorstand / Die Bankverbindung lautet
-
+          {($t("donations.list-1"))}
+        </li>
+        <li>
+          {($t("donations.list-2"))}
+        </li>
+        <li>
+          {($t("donations.list-3"))}
+        </li>
+        <li>
+          {($t("donations.list-4"))}
         </li>
       </ul>
 
+      <div>
+          {($t("donations.text-4"))}
+      </div>
+
+      <ul class="pb-2">
+        <li>
+          {($t("donations.list-5-1"))}  
+            <b> 
+              {($t("donations.list-5-bold"))}
+            </b> 
+            {($t("donations.list-5-2"))}
+        </li>
+        <li>
+          {($t("donations.list-6-1"))}
+          <b>
+            {($t("donations.list-6-bold"))}
+          </b>
+          {($t("donations.list-6-2"))}
+          <a href="http://www.tobikun.com/folletti/FolliFolletti_files/Antrag_auf_Vereinsmitgliedschaft.doc" target="_blank">
+            {($t("donations.list-6-link-1"))}
+          </a>
+          {($t("donations.list-6-3"))}
+          <a href="http://www.tobikun.com/folletti/FolliFolletti_files/KiTa_Satzung.doc" target="_blank">
+            {($t("donations.list-6-2"))}
+          </a>
+        </li>
+      </ul>
+
+      <div class="pb-2">
+        {($t("donations.text-5"))}
+      </div>
+      <div class="pb-2">
+        {($t("donations.text-6"))}
+      </div>
+      <div class="pb-2 text-center">
+        {($t("donations.text-7" ))}
+      </div>
+      <div class="pb-2 text-center">
+        Folli Folletti e.V.
+      </div>
+     
       </div>
     </section>
   </div>

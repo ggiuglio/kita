@@ -68,5 +68,30 @@
         "text-2": "A nome dei nostri bambini, l'Associazione ringrazia di tutto cuore i nostri sostenitori!",
         "text-3": "Potete contribuire a sostenerci in diversi modi: vedi la pagina",
         "link-1": "donazioni"
+    },
+    "donations":{
+        "title-1": "Sponsor",
+        "text-1": "La realizzazione di alcuni progetti importanti e necessari per il nostro asilo 'Folli Folletti' è stata possibile grazie ai contributi offerti da molte imprese e istituzioni: vedi la pagina dei nostri",
+        "title-2": "Donazioni / Soci sostenitori",
+        "text-2": "Il nostro progetto di 'associazione di interesse collettivo' è promosso in gran parte dai genitori stessi. Cerchiamo altre persone che sostengano materialmente e finanziariamente quest'iniziativa. In concreto abbiamo bisogno di:",
+        "text-3": "In concreto abbiamo bisogno di:",
+        "list-1": "Sostegno finanziario da parte di investitori, sponsor e donatori",
+        "list-2": "Donazione di mobili e giocattoli per arricchire la nostra dotazione",
+        "list-3": "Soci sostenitori che finanzino la scuola dell’infanzia tramite versamento delle quote annuali",
+        "list-4": "'Ambasciatori' che diffondano la nostra idea",
+        "text-4": "Potete contribuire a sostenere il nostro progetto in diversi modi:",
+        "list-5-1": "Potete sostenere il nostro progetto con una ",
+        "list-5-bold": "donazione",
+        "list-5-2": ". Per effettuare una donazione in modo semplice e rapido contattate il nostro Vorstand / versate i soldi sul conto...",
+        "list-6-1": "Potete sostenere la nostra scuola dell’infanzia diventando ",
+        "list-6-bold": "soci promotori",
+        "list-6-2": ". Versando la quota annuale ci aiutate a realizzare i nostri progetti. Possono diventare soci sostenitori tutte le persone fisiche e giuridiche, società ed istituzioni. Per risultare accessibile a chiunque, la quota annuale è stata fissata dall'associazione a 25 euro. La nostra direzione sarà lieta di fornirvi le coordinate bancarie dell'Associazione. Potete diventare soci sostenitori stampando e inviandoci per posta o e-mail questa",
+        "list-6-link-1": "domanda di adesione",
+        "list-6-3": "La direzione dell'Associazione è sempre a vostra disposizione per ulteriori domande e chiarimenti (info@folli-folletti.de). Lo statuto dell'Associazione lo trovate",
+        "list-6-link-2": "qui",
+        "text-5": "Se desiderate una ricevuta per la vostra donazione, comunicateci il vostro indirizzo!",
+        "text-6": "A nome dei nostri bambini, l'Associazione ringrazia di tutto cuore i nostri sostenitori!",
+        "text-7": "Grazie mille!"
+
     }
 }

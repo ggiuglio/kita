@@ -2,7 +2,7 @@
 <script>
   import { browser } from "$app/environment";
 	import { goto } from "$app/navigation";
-import "$lib/i18n/i18n";
+  import "$lib/i18n/i18n";
 	import { onMount } from "svelte";
 
   import { t, locales, locale, isLoading as loadingTranslations } from "svelte-i18n";
@@ -16,7 +16,6 @@ import "$lib/i18n/i18n";
     localStorage.setItem("language", lang);
   };
 
-  $: console.log("lang", $locale);
 </script>
 
 <svelte:head>

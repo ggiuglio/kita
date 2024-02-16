@@ -1,16 +1,8 @@
 <script>
-    import * as j from "jquery";
     import { onMount } from 'svelte';
     import { t } from "svelte-i18n";
     import { goto } from "$app/navigation";
 
-    onMount(async () => {
-      AOS.init({
-        duration: 1000,
-        once: true,
-      })
-    });
-  
   </script>
   
   <div>

@@ -1,26 +1,8 @@
 <script>
 	import { goto } from "$app/navigation";
-  import * as j from "jquery";
   import { t } from "svelte-i18n";
   import { onMount } from 'svelte';
 
-  let root;
-
-  onMount(async () => {
-    var swiper = new Swiper(".slider", {
-      effect: "fade",
-      navigation: {
-        nextEl: ".main-slider-button-next",
-        prevEl: ".main-slider-button-prev",
-      },
-    }); 
-
-    AOS.init({
-      duration: 1000,
-      once: true,
-  })
-
-  })
 
 </script>
     

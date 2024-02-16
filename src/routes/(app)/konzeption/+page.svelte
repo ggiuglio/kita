@@ -1,15 +1,7 @@
 <script>
-    import * as j from "jquery";
     import { onMount } from 'svelte';
     import { t } from "svelte-i18n";
 
-    onMount(async () => {
-      AOS.init({
-        duration: 1000,
-        once: true,
-      })
-    });
-  
   </script>
   
   <div>

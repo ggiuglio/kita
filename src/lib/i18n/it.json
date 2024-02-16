@@ -64,7 +64,7 @@
     },
     "partner": {
         "title": "Partner / Amici",
-        "text-1": "La realizzazione di alcuni progetti importanti e necessari per il nostro asilo 'Folli Folletti' è stata possibile grazie ai contributi offerti dalle seguenti imprese e istituzioni:",
+        "text-1": "La realizzazione di alcuni progetti importanti e necessari per il nostro asilo „Folli Folletti“ è stata possibile grazie ai contributi offerti dalle seguenti imprese e istituzioni:",
         "text-2": "A nome dei nostri bambini, l'Associazione ringrazia di tutto cuore i nostri sostenitori!",
         "text-3": "Potete contribuire a sostenerci in diversi modi: vedi la pagina",
         "link-1": "donazioni"
@@ -93,5 +93,24 @@
         "text-6": "A nome dei nostri bambini, l'Associazione ringrazia di tutto cuore i nostri sostenitori!",
         "text-7": "Grazie mille!"
 
+    },
+    "history": {
+        "title-1": "All'inizio era soltanto un gioco...",
+        "text-1": "Fino a poco tempo fa non ci rendevamo nemmeno conto di quanti famiglie italo-tedesche vivessero con i loro bambini a Prenzlauer Berg. Poi, però, sempre più genitori si sono conosciuti, trovandosi insieme nel gruppo di gioco italo-tedesco",
+        "link-1": "La Nave Gelsomina",
+        "title-2": "Risolviamo insieme il problema dell'asilo",
+        "text-2": "Anche voi non avete ancora trovato un asilo? Non sarebbe bello se i nostri bambini potessero crescere anche con la „lingua materna“ di papà nella „patria“ della mamma o viceversa?",
+        "text-3": "Così è nata l'idea: apriamo noi il nostro asilo! Dove tutte e tutti possano parlare in italiano E in tedesco. Una pazzia? Niente affatto – o forse un pochino sì...",
+        "text-4": "Detto, fatto - nell'estate del 2010 alcune famiglie si sono unite nell'associazione registrata „Folli Folletti e.V.“, e dopo mesi di intenso lavoro sono riusciti a ottenere grandi cose: oggi siamo fieri di comunicare che l’8 settembre del 2011 abbiamo aperto nella Cantianstraße 15 il nostro nido e scuola dell’infanzia „Folli Folletti“! Quattro educatrici di nazionalità italiana e tedesca assistono venti „folli folletti“ da uno a sei anni.",
+        "title-3": "Riassumendo: cosa è importante per noi",
+        "text-5": "Abbiamo creato un progetto bilingue creativo, musicale, in cui regni un'atmosfera familiare e il rispetto per entrambe le lingue e le culture. Come „Elterninitiativkita“ (EKT) puntiamo necessariamente sull'impegno dei genitori, sulla trasparenza e su una buona comunicazione tra genitori ed educatrici.",
+        "link-2": "Il nostro concetto pedagogico lo trovate qui (ultimo aggiornamento Ottobre 2013???)",
+        "title-4": "Piccoli contributi per grandi risultati",
+        "text-7": "La nostra scuola dell’infanzia non sarebbe concepibile senza l'impegno di tante persone. Grazie di cuore a tutte le mani e a tutte le manine che si sono unite per contribuire alla riuscita del nostro progetto!",
+        "text-8": "Potete diventare soci sostenitori stampando e inviandoci per posta o e-mail ques",
+        "link-3": "domanda di adesione",
+        "text-9": "La direzione dell'Associazione è sempre a vostra disposizione per ulteriori domande e chiarimenti (info@folli-folletti.de).",
+        "link-4": "Lo statuto dell'Associazione lo trovate qui.",
+        "text-10": " "
     }
 }

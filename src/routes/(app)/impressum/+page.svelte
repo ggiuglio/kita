@@ -57,7 +57,7 @@
                 <ul class="list-unstyled gap-2 m-0">
                     <li class="social">
                         Folge uns auf  
-                      <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464">
+                      <a href="https://www.facebook.com/people/Folli-Folletti-eV/100064738174464" class="text-decoration-underline">
                         Facebook
                         <iconify-icon class="social-icon p-1 align-bottom" icon="ri:facebook-fill"></iconify-icon>
                       </a>

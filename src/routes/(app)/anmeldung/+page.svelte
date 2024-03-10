@@ -72,11 +72,9 @@
             </b>
         </p>
 
-        <div class="banner-content text-center m-auto" data-aos="zoom-out">
-            <h2 class="display-5 mb-4 pt-5">
-                Infos
-            </h2>
-        </div>
+        <h2 class="h-6 mb-4 pt-5">
+            Infos
+        </h2>
       
         <ul>
             <li>

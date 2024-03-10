@@ -47,63 +47,53 @@
     <section id="geschichte" class="pt-5">
       <div class="container padding-medium pt-0">
   
-        <div class="banner-content text-center m-auto" data-aos="zoom-out">
-          <h2 class="display-6 mb-2">
-            {$t("history.title-1")}
-          </h2>
-        </div>
-
-        <p>
+        <h2 class="h-6">
+          {$t("history.title-1")}
+        </h2>
+        <p class="mb-4">
           {$t("history.text-1")}
-          <a href="http://it-it.facebook.com/lanavegelsomina"> {$t("history.link-1")}</a>
+          <a href="http://it-it.facebook.com/lanavegelsomina" class="text-decoration-underline"> {$t("history.link-1")}</a>
         </p>
 
-        <div class="banner-content text-center m-auto mt-8" data-aos="zoom-out">
-          <h2 class="display-6 mb-2 pt-3">
-            {$t("history.title-2")}
-          </h2>
-        </div>
-        
-        <p>
+        <h2 class="h-6 pt-4">
+          {$t("history.title-2")}
+        </h2>
+        <p class="mb-2">
           <b>
-            " {$t("history.text-2")} “
+            “{$t("history.text-2")}”
           </b>  
           <br />
           {$t("history.text-3")}         
         </p>
-
-        <p>
+        <p class="mb-4">
           {$t("history.text-4")} 
         </p>
       
-        <div class="banner-content text-center m-auto" data-aos="zoom-out">
-          <h2 class="display-6 pt-3">
-            {$t("history.title-3")} 
-          </h2>
-        </div>
+        <h2 class="h-6 pt-4">
+          {$t("history.title-3")} 
+        </h2>
 
-        <p>
-          {$t("history.text-5")} 
-          <a href="/http://www.tobikun.com/folletti/FolliFolletti_files/Konzeption_StandOktober2013.pdf">          
+        <p class="mb-4">
+          {$t("history.text-5")} <br />
+          {$t("history.text-6")} 
+          <a href="documents/konzeption_stand.pdf" class="text-decoration-underline" download>          
             {$t("history.link-2")} 
           </a>
         </p>
 
-        <div class="banner-content text-center m-auto" data-aos="zoom-out">
-          <h2 class="display-6 pt-3">
-            {$t("history.title-4")}
-          </h2>
-        </div>
-        <p>
+        <h2 class="h-6 pt-4">
+          {$t("history.title-4")}
+        </h2>
+        <p class="mb-2">
           {$t("history.text-7")}
         </p>
-        <p>
+        <p class="mb-4">
           {$t("history.text-8")}
-          <a href="http://www.tobikun.com/folletti/FolliFolletti_files/Antrag_auf_Vereinsmitgliedschaft.doc">
+          <a href="documents/vereinsmitgliedschaft.pdf" class="text-decoration-underline" download>
             {$t("history.link-3")}
           </a>
           {$t("history.text-9")}
-          <a href="http://www.tobikun.com/folletti/FolliFolletti_files/KiTa_Satzung.doc">
+          <a href="documents/satzung.pdf" class="text-decoration-underline" download>
             {$t("history.link-4")}
           </a>
           {$t("history.text-10")}

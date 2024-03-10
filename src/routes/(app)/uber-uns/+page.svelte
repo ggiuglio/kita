@@ -47,35 +47,64 @@
   <section id="uber-uns" class="pt-5">
     <div class="container padding-medium pt-0">
 
-    <div class="banner-content text-center m-auto" data-aos="zoom-out">
-      <h2 class="display-4 mb-4"> Wir sind</h2>
-    </div>
+    <h2 class="h-6"> 
+      {($t("about-us.title-1"))}
+   </h2>
+
     <p class="mb-4">
-      Eine deutsch-italienische Eltern-Kind-Initiative
-      zwanzig Kinder, dessen Familien die Kita betreiben
+      {($t("about-us.text-1"))}
     </p>
 
-    <div class="banner-content text-center m-auto" data-aos="zoom-out">
-      <h2 class="display-4 mb-4 pt-5"> Unsere Kita</h2>
-    </div>
+    <h2 class="h-6 pt-4">
+      {($t("about-us.title-2"))}
+    </h2>
     <p class="mb-4">
-      Ist kreativ, bilingual, musikalisch, familiär, bewegungsorientiert und umweltbewusst
-      spricht italienisch und deutsch
-      isst bewusst und sorgfältig mit SmartCooking (http://smartcooking-berlin.com)
-      ist ein Treffpunkt für Alle, die an einem Austausch zwischen deutscher und italienischer Kultur interessiert sind
-      
+      {($t("about-us.text-2"))}
     </p>
-    <div class="banner-content text-center m-auto" data-aos="zoom-out">
-      <h2 class="display-4 mb-4 pt-5"> Gemeinsam</h2>
-    </div>
+
+    <h2 class="h-6 pt-4">
+      {($t("about-us.title-3"))}
+    </h2>
     <p class="mb-4">
-      Engagieren wir uns für unsere Kita
-      tauschen wir uns aus und helfen uns bei kleineren Problemen
-      sprechen wir sehr gerne Italienisch und gehen auch mal einen Kaffee trinken
-      Folli Folletti ist eine anerkannte Kita und funktioniert mit dem Berliner Kita-Gutschein
+      {($t("about-us.text-3-1"))}
     </p>
+    <ul>
+      <li>
+        {($t("about-us.link-1"))}
+      </li>
+      <li>
+        {($t("about-us.link-2"))}
+      </li>
+      <li>
+        {($t("about-us.link-3"))}
+      </li>
+      <li>
+        {($t("about-us.link-4"))}
+      </li>
+      <li>
+        {($t("about-us.link-5"))}
+      </li>
+      <li>
+        {($t("about-us.link-6"))}
+      </li>
+    </ul>
+    <p class="mb-4">
+      {($t("about-us.text-3-2"))}
+    </p>
+
+    <h2 class="h-6 pt-4">
+      {($t("about-us.title-4"))}
+    </h2>
+    <p class="mb-4">
+      {($t("about-us.text-4"))}
+    </p>
+
+    <p class="mb-2">
+      {($t("about-us.text-5"))} <br />
+        {($t("about-us.text-6"))}
+    </p>
+
     <p>
-      Nähere Informationen zur  Beantragung eines Kita-Gutscheins erhalten Sie am Berliner Serviceportal
     </p>
   </div>
   </section>

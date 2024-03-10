@@ -48,30 +48,23 @@
     <section id="spenden" class="pt-5">
       <div class="container padding-medium pt-0">
   
-      <div class="banner-content text-center m-auto" data-aos="zoom-out">
-        <h2 class="display-5 mb-4">
-          {($t("donations.title-1"))}
-        </h2>
-      </div>
-
-
+      <h2 class="h-6">
+        {($t("donations.title-1"))}
+      </h2>
       <p class="mb-4">
         {($t("donations.text-1"))}
-        <a href="/partner">Partner</a>
+        <a href="/partner" class="text-decoration-underline">Partner.</a>
       </p>
 
-      <div class="banner-content text-center m-auto" data-aos="zoom-out">
-        <h2 class="display-5 mb-4">
-          {($t("donations.title-2"))}
-        </h2>
-      </div>
-
+      <h2 class="h-6 pt-4">
+        {($t("donations.title-2"))}
+      </h2>
       <p class="mb-4">
         {($t("donations.text-2"))}
         <br />
-        {($t("donations.text-3"))}
       </p>
-
+        
+      {($t("donations.text-3"))}
       <ul>
         <li>
           {($t("donations.list-1"))}
@@ -105,12 +98,12 @@
             {($t("donations.list-6-bold"))}
           </b>
           {($t("donations.list-6-2"))}
-          <a href="http://www.tobikun.com/folletti/FolliFolletti_files/Antrag_auf_Vereinsmitgliedschaft.doc" target="_blank">
+          <a href="documents/vereinsmitgliedschaft.pdf"  class="text-decoration-underline" download>
             {($t("donations.list-6-link-1"))}
           </a>
           {($t("donations.list-6-3"))}
-          <a href="http://www.tobikun.com/folletti/FolliFolletti_files/KiTa_Satzung.doc" target="_blank">
-            {($t("donations.list-6-2"))}
+          <a href="documents/satzung.pdf" class="text-decoration-underline" download>
+            {($t("donations.list-6-link-2"))}
           </a>
         </li>
       </ul>

@@ -48,11 +48,9 @@
     <section id="partner" class="pt-5">
       <div class="container padding-medium pt-0">
   
-      <div class="banner-content text-center m-auto" data-aos="zoom-out">
-        <h2 class="display-5 mb-4">
-          {$t("partner.title")}
-        </h2>
-      </div>
+      <h2 class="h-6 mb-4">
+        {$t("partner.title")}
+      </h2>
 
       <div class="mb-4">
         {$t("partner.text-1")}
@@ -98,7 +96,7 @@
       </p>
       <p>
         {$t("partner.text-3")} 
-        <a on:click={() => goto("/spenden")} href="#">
+        <a on:click={() => goto("/spenden")} href="#" class="text-decoration-underline">
           {$t("partner.link-1")}
         </a>
       </p>

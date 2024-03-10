@@ -55,38 +55,39 @@
     <section id="verein" class="pt-5">
       <div class="container padding-medium pt-0">
 
-        <h2 class="display-5">
+        <h2 class="h-6">
             {$t("association.title-1")}
         </h2>
-
-        <div class={"mb-4"}>
+        <p class={"mb-4"}>
             {$t("association.text-1")}
-        </div>
+            <br />
+            {$t("association.text-1-1")}
+            <a href="documents/satzung.pdf" class="text-decoration-underline" download> {$t("association.link-1-1")} </a>
+        </p>
 
-        <h2 class="h-6">
+        <h2 class="h-6 pt-4">
             {$t("association.title-2")}
 
         </h2>
-        <div class={"mb-4"}>
+        <p class={"mb-4"}>
             {$t("association.text-2")}
-        </div>
+        </p>
 
-        <h2 class="h-6">
+        <h2 class="h-6 pt-4">
             {$t("association.title-3")}
 
         </h2>
-        <div class={"mb-4"}>
+        <p class={"mb-4"}>
             {$t("association.text-3")}
-        </div>
+        </p>
 
-        <h2 class="h-6">
+        <h2 class="h-6 pt-4">
             {$t("association.title-4")}
 
         </h2>
-        <div class={"mb-2"}>
+        <p class={"mb-2"}>
             {$t("association.text-4")}
-        </div>
-
+        </p>
         <ul class={"mb-4"}>
             <li>
                 {$t("association.list-1")}
@@ -134,38 +135,36 @@
                 {$t("association.list-15")}
             </li>
         </ul> 
-        <h2 class="h-6">
+
+        <h2 class="h-6 pt-4">
             {$t("association.title-5")}
         </h2>
-
-        <div>
+        <p>
             {$t("association.text-5")}
-        </div>
-        <div class="mb-2">
+       <br />
             {$t("association.text-6")}
-        </div>
-     
-    <ul class="mb-4">
-        <li>
-            {$t("association.list-15")}
-        </li>
-        <li>
-            {$t("association.list-16")}
-        </li>
-        <li>
-            {$t("association.list-17")}
-        </li>
-        <li>
-            {$t("association.list-18")}
-        </li>
-    </ul>
+        </p>
+        <ul class="mb-4">
+            <li>
+                {$t("association.list-15")}
+            </li>
+            <li>
+                {$t("association.list-16")}
+            </li>
+            <li>
+                {$t("association.list-17")}
+            </li>
+            <li>
+                {$t("association.list-18")}
+            </li>
+        </ul>
          
-    <h2 class="h-6">
-        {$t("association.title-7")}
-    </h2>
-    <div>   
-        {$t("association.text-7")}
-    </div>
+        <h2 class="h-6 pt-4">
+            {$t("association.title-7")}
+        </h2>
+        <div>   
+            {$t("association.text-7")}
+        </div>
   
       </div>
     </section>

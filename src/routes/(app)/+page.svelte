@@ -2,7 +2,16 @@
 	import { goto } from "$app/navigation";
   import { t } from "svelte-i18n";
   import { onMount } from 'svelte';
+  import * as j from "jquery";
+  import Chocolat from "chocolat";
 
+ onMount(async () => {
+    Chocolat(document.querySelectorAll('.image-link'), {
+      imageSize: 'contain',
+      loop: true,
+    })
+  
+  });
 
 </script>
     
@@ -137,27 +146,27 @@
 <div class="container padding-medium">
     <div class="row">
     <div class="col my-4 my-lg-0 text-center">
-        <a href="#" class="categories-item">
+        <a href="#gallery-play" class="categories-item">
         <iconify-icon class="category-icon bg-red text-white p-5 rounded-circle"
             icon="mdi:playground-slide"></iconify-icon>
         <h2 class="mt-2">{$t("home.playground")}</h2>
         </a>
     </div>
     <div class="col my-4 my-lg-0 text-center">
-        <a href="#" class="categories-item">
+        <a href="#gallery-rooms" class="categories-item">
         <iconify-icon class="category-icon bg-green text-white p-5 rounded-circle"
             icon="material-symbols:house-outline"></iconify-icon>
         <h2 class="mt-2">{$t("home.rooms")}</h2>
         </a>
     </div>
     <div class="col my-4 my-lg-0 text-center">
-        <a href="#" class="categories-item">
+        <a href="#gallery-activity" class="categories-item">
         <iconify-icon class="category-icon bg-blue text-white p-5 rounded-circle" icon="mdi:art"></iconify-icon>
         <h2 class="mt-2">{$t("home.activity")}</h2>
         </a>
     </div>
     <div class="col my-4 my-lg-0 text-center">
-        <a href="#" class="categories-item">
+        <a href="#gallery-trip" class="categories-item">
         <iconify-icon class="category-icon bg-yellow text-white p-5 rounded-circle"
             icon="material-symbols:abc-rounded"></iconify-icon>
         <h2 class="mt-2">{$t("home.trips")} </h2>
@@ -168,7 +177,7 @@
 </section>
 
 <section id="about-us">
-<div class="container padding-medium pt-0">
+  <div class="container padding-medium pt-0">
     <div class="row align-items-center">
       <div class="col-md-6">
           <div class="imageblock me-md-5">
@@ -205,4 +214,134 @@
       </div>
     </div>
 </div>
+</section>
+
+<h2 class="display-4 text-center mb-5">View our gallery</h2>
+
+<section id="gallery-play">
+  <h2 class="h-6 text-center mb-2">{$t("home.playground")}</h2>
+  <div class="container padding-medium pt-0">
+    <div class="row entry-container">
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item1.jpg" title="Kindergarten" class="image-link"><img src="images/item1.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item3.jpg" title="Kindergarten" class="image-link"><img src="images/item3.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item5.jpg" title="Kindergarten" class="image-link"><img src="images/item5.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item2.jpg" title="Kindergarten" class="image-link"><img src="images/item2.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item6.jpg" title="Kindergarten" class="image-link"><img src="images/item6.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item4.jpg" title="Kindergarten" class="image-link"><img src="images/item4.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery-rooms">
+  <div class="container padding-medium pt-0">
+    <h2 class="h-6 text-center mb-2">{$t("home.rooms")}</h2>
+    <div class="row entry-container-raum">
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item1.jpg" title="Kindergarten" class="image-link"><img src="images/item1.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item3.jpg" title="Kindergarten" class="image-link"><img src="images/item3.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item5.jpg" title="Kindergarten" class="image-link"><img src="images/item5.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item2.jpg" title="Kindergarten" class="image-link"><img src="images/item2.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item6.jpg" title="Kindergarten" class="image-link"><img src="images/item6.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item4.jpg" title="Kindergarten" class="image-link"><img src="images/item4.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery-activity">
+  <div class="container padding-medium pt-0">
+    <h2 class="h-6 text-center mb-2">{$t("home.activity")}</h2>
+    <div class="row entry-container-act">
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item1.jpg" title="Kindergarten" class="image-link"><img src="images/item1.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item3.jpg" title="Kindergarten" class="image-link"><img src="images/item3.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item5.jpg" title="Kindergarten" class="image-link"><img src="images/item5.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item2.jpg" title="Kindergarten" class="image-link"><img src="images/item2.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item6.jpg" title="Kindergarten" class="image-link"><img src="images/item6.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item4.jpg" title="Kindergarten" class="image-link"><img src="images/item4.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery-trip">
+  <div class="container padding-medium pt-0">
+    <h2 class="h-6 text-center mb-2">{$t("home.trips")}</h2>
+    <div class="row entry-container-trip">
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item1.jpg" title="Kindergarten" class="image-link"><img src="images/item1.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item3.jpg" title="Kindergarten" class="image-link"><img src="images/item3.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item5.jpg" title="Kindergarten" class="image-link"><img src="images/item5.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item2.jpg" title="Kindergarten" class="image-link"><img src="images/item2.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item6.jpg" title="Kindergarten" class="image-link"><img src="images/item6.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+      <div class="entry-item col-md-4 my-3">
+        <a href="images/item4.jpg" title="Kindergarten" class="image-link"><img src="images/item4.jpg"
+            class=" post-image img-fluid rounded-4"></a>
+      </div>
+    </div>
+  </div>
 </section>

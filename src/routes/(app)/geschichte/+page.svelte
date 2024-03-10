@@ -75,10 +75,7 @@
 
         <p class="mb-4">
           {$t("history.text-5")} <br />
-          {$t("history.text-6")} 
-          <a href="documents/konzeption_stand.pdf" class="text-decoration-underline" download>          
-            {$t("history.link-2")} 
-          </a>
+          {$t("history.text-6")}
         </p>
 
         <h2 class="h-6 pt-4">

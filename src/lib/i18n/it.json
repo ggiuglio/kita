@@ -28,20 +28,20 @@
             "close": "… allora continuate a leggere."
         }
     },
-    "about-us":{
+    "about-us": {
         "title-1": "Noi siamo...",
         "text-1": "un'iniziativa di genitori e bambini italo-tedeschi che ospita venti bambini le cui famiglie gestiscono l'asilo.",
         "title-2": "Il nostro asilo...",
         "text-2": "è creativo, bilingue, musicale ed è attento all'attività fisica e all'ambiente, in un'atmosfera familiare. Mangiamo in modo consapevole, biologico e vegetariano. La cucina è gustosa e integrale. Parliamo italiano e tedesco e siamo un punto d'incontro per tutti coloro che sono interessati allo scambio tra la cultura tedesca e quella italiana.",
         "title-3": "Le nostre educatrici e i nostri educatori...",
-        "text-3-1": "sono tedeschi e italiani, affettuosi, parlano ai bambini nella loro lingua madre, hanno un talento musicale, amano cantare, ballare e cucinare con i bambini. Sono supportati da tirocinanti, stagisti e volontari, in modo che di solito ci sia un adulto ogni tre bambini. Ciò permette di seguire e sostenere tutti i bambini con attenzione.",
-        "link-1": " ",
-        "link-2": " ",
-        "link-3": " ",
-        "link-4": " ",
-        "link-5": " ",
-        "link-6": " ",
-        "text-3-2": " ",
+        "text-3-1": "Sono un team di sei educatori (quattro italiani e due tedeschi) con la seguente formazione:",
+        "link-1": "Educatrice/pedagogista infantile",
+        "link-2": "Educatrice/specialista in abilità psicomotorie",
+        "link-3": "Educatrice/specialista per l'integrazione",
+        "link-4": "Istruttrice di danza (quereinsteigerin)",
+        "link-5": "Chinesiologo/specialista educativo riconosciuto",
+        "link-6": "Educatore in formazione",
+        "text-3-2": "Parlano ai bambini nella loro lingua madre e sono supportati da tirocinanti, stagisti e volontari, in modo che di solito ci sia un adulto ogni tre bambini. Ciò permette di seguire e sostenere tutti i bambini con attenzione.",
         "title-4": "Insieme...",
         "text-4": "lasciamoci coinvolgere nel nostro asilo, scambiamo idee e aiutiamoci a vicenda con i problemi di tutti i giorni. Ci piace molto parlare italiano e qualche volta usciamo assieme a prendere un caffè.",
         "text-5": "Folli Folletti è un asilo nido riconosciuto e accetta il voucher per l'asilo di Berlino.",
@@ -120,7 +120,7 @@
         "text-1": "Fino a poco tempo fa non ci rendevamo nemmeno conto di quanti famiglie italo-tedesche vivessero con i loro bambini a Prenzlauer Berg. Poi, però, sempre più genitori si sono conosciuti, trovandosi insieme nel gruppo di gioco italo-tedesco",
         "link-1": "La Nave Gelsomina",
         "title-2": "Risolviamo insieme il problema dell'asilo",
-        "text-2": "Anche voi non avete ancora trovato un asilo? Non sarebbe bello se i nostri bambini potessero crescere anche con la „lingua materna“ di papà nella „patria“ della mamma o viceversa?",
+        "text-2": "Anche voi non avete ancora trovato un asilo? Non sarebbe bello se i nostri bambini potessero crescere anche con la lingua materna di papà nella patria della mamma o viceversa?",
         "text-3": "Così è nata l'idea: apriamo noi il nostro asilo! Dove tutte e tutti possano parlare in italiano E in tedesco. Una pazzia? Niente affatto – o forse un pochino sì...",
         "text-4": "Detto, fatto - nell'estate del 2010 alcune famiglie si sono unite nell'associazione registrata „Folli Folletti e.V.“, e dopo mesi di intenso lavoro sono riusciti a ottenere grandi cose: oggi siamo fieri di comunicare che l’8 settembre del 2011 abbiamo aperto nella Cantianstraße 15 il nostro nido e scuola dell’infanzia „Folli Folletti“! Quattro educatrici di nazionalità italiana e tedesca assistono venti „folli folletti“ da uno a sei anni.",
         "title-3": "Riassumendo: cosa è importante per noi",
@@ -134,5 +134,25 @@
         "text-9": "La direzione dell'Associazione è sempre a vostra disposizione per ulteriori domande e chiarimenti (info@folli-folletti.de).",
         "link-4": "Lo statuto dell'Associazione lo trovate qui.",
         "text-10": " "
+    },
+    "concept" : {
+        "text-1": "Lavoriamo secondo il",
+        "link-1": "programma educativo di Berlino",
+        "text-2": "e consideriamo ogni bambino come una personalità indipendente nella sua unicità, i cui bisogni e interessi devono essere riconosciuti per poterli promuovere di conseguenza e sostenerli nel loro sviluppo.",
+        "text-3": "Promuovere il bilinguismo e la comprensione di entrambe le culture è un aspetto essenziale del lavoro educativo. “Una persona, una lingua” (ovvero un educatore parla costantemente tedesco, l’altro parla costantemente italiano con i bambini) è il principio secondo il quale gli educatori dell’asilo comunicano con i bambini, nelle rispettive lingue madri. Il nostro asilo insegna la lingua utilizzando l'approccio dell'immersione, che integra la lingua nelle situazioni quotidiane e nel gioco.",
+        "text-4": "Nell'asilo quotidiano vengono affrontati gli argomenti dei bambini, i suggerimenti dei bambini vengono presi in considerazione e implementati nel lavoro di progetto. L'asilo si considera uno spazio di apprendimento e di vita condiviso per bambini ed educatori in un'atmosfera familiare e di fiducia. Rispetto, considerazione, tolleranza e interazione sociale sono aspetti importanti nella vita di tutti i giorni. Gli obiettivi principali del lavoro educativo sono lo sviluppo della fiducia in se stessi, della fiducia in se stessi, dell'indipendenza, della disponibilità al compromesso, della capacità di affrontare i conflitti, dell'accettazione e della cooperazione basata sulla partnership con i genitori."
+    },
+    "registration": {
+        "text-1" : "Folli Folletti è un piccolo EKT che si prende cura di 20 bambini dall'età di 1 anno fino all'inizio della scuola. Ci sono 4 bambini in ogni gruppo d'età: 2 femmine e 2 maschi. Ecco perché ogni anno ci sono solo 4 nuovi posti per bambini di un anno. Tuttavia, a volte alcuni di questi sono già stati assegnati ai fratelli. A volte capita che alcuni posti si rendano disponibili durante l'anno, ad esempio perché una famiglia si trasferisce.",
+        "text-2": "Per essere ammessi a Folli Folletti non serve solo fortuna, ma bisogna anche avere il tempo e la voglia di partecipare attivamente all'organizzazione dell'asilo (ad esempio servizio parentale in caso di assenza dell'insegnante, aiuto manuale per le riparazioni, servizio lavanderia, ecc.).",
+        "text-3": "Vi preghiamo di inviarci i vostri dati (nome, cognome e data di nascita del bambino, recapiti di almeno un genitore e una breve lettera di presentazione) per essere contattati",
+        "text-4": "Tenete presente che l'asilo nido è molto piccolo e ci sono molti meno posti rispetto alla domanda, motivo per cui la selezione dei bambini è estremamente difficile.",
+        "text-5": "INFORMAZIONE IMPORTANTE: Tutti i posti sono già occupati per i bambini nati nel 2023.",
+        "title-1": "Info",
+        "list-1": "Asilo di iniziativa pubblica dei genitori",
+        "list-2": "20 bambini da 1 a 6 anni",
+        "list-3": "4 bambini, 2 femmine e 2 maschi, per ogni gruppo di età",
+        "list-4": "I bambini sono divisi in 2 gruppi: 8 bambini da 1 a 3 anni e 12 bambini da 3 a 6 anni",
+        "list-5": "Ci sono 2 educatori per gruppo, più persone che prestano servizio alla comunità, stagisti e tirocinanti"
     }
 }

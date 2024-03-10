@@ -48,23 +48,17 @@
       <div class="container padding-medium pt-0">
   
       <p class="mb-4">
-        Wir arbeiten nach dem <a>Berliner Bildungsprogramm </a> und sehen jedes Kind als eigenständige Persönlichkeit 
-        in seiner Einzigartigkeit, dessen Bedürfnisse und Interessen es zu erkennen gilt, um es entsprechend zu 
-        fördern und in seiner Entwicklung zu unterstützen.
+        {$t("concept.text-1")}
+        <a href="https://www.google.com" target="_blank" class="text-decoration-underline">{$t("concept.link-1")}</a>
+        {$t("concept.text-2")}
       </p>
 
       <p class="mb-4">
-        Die Förderung der Zweisprachigkeit und des Verständnisses für beide Kulturen ist ein wesentlicher Punkt der pädagogischen Arbeit. 
-        „Eine Person, eine Sprache“ (d.h. eine ErzieherIn spricht durchgängig deutsch, die andere  durchgängig italienisch mit den Kindern) 
-        ist das Prinzip, nach dem in der Kita die ErzieherInnen mit den Kindern kommunizieren und zwar in ihrer jeweiligen Muttersprache. 
-        Beim Erlernen der Sprache richtet sich unsere Kita nach der Methode des Immersionsansatzes, die die Sprache in die Alltagssituation und ins Spiel einbindet.
+        {$t("concept.text-3")}
       </p>
 
       <p class="mb-4">
-        Im Kitaalltag werden die Themen der Kinder aufgegriffen, Anregungen der Kinder wahrgenommen und in der Projektarbeit umgesetzt. Die Kita versteht sich als 
-        gemeinsamer Lern- und Lebensraum für Kinder und ErzieherInnen in einer familienähnlichen und vertrauensvollen Atmosphäre. Respekt, Rücksichtnahme, Toleranz 
-        und ein soziales Miteinander sind wichtige Aspekte im Alltag. Wesentliche Ziele in der pädagogischen Arbeit sind die Entwicklung von Selbstvertrauen, Selbstbewusstsein, 
-        Selbstständigkeit, Kompromissbereitschaft, Konfliktfähigkeit, Akzeptanz und eine partnerschaftliche Zusammenarbeit mit den Eltern.
+        {$t("concept.text-4")}
       </p>
 
       </div>

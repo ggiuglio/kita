@@ -132,5 +132,25 @@
         "text-9": "ausdrucken und ihn per Email oder per Post an uns schicken. Wir sind an einer kontinuierlichen Vernetzung mit anderen bilingualen Einrichtungen und Institutionen interessiert und würden uns sehr darüber freuen, wenn Sie uns dabei unterstützen. Bitte teilen Sie uns Ihre Adresse mit, wenn Sie eine Spendenquittung wünschen. Der Vorstand des Vereins (info@folli-folletti.de) steht Ihnen gerne bei Fragen zur Verfügung.",
         "link-4": "Die Satzung unseres Vereins können Sie hier",
         "text-10": "nachlesen"
+    },
+    "concept" : {
+        "text-1": "Wir arbeiten nach dem",
+        "link-1": "Berliner Bildungsprogramm",
+        "text-2": "und sehen jedes Kind als eigenständige Persönlichkeit in seiner Einzigartigkeit, dessen Bedürfnisse und Interessen es zu erkennen gilt, um es entsprechend zu fördern und in seiner Entwicklung zu unterstützen.",
+        "text-3": "Die Förderung der Zweisprachigkeit und des Verständnisses für beide Kulturen ist ein wesentlicher Punkt der pädagogischen Arbeit. “Eine Person, eine Sprache” (d.h. eine ErzieherIn spricht durchgängig deutsch, die andere  durchgängig italienisch mit den Kindern) ist das Prinzip, nach dem in der Kita die ErzieherInnen mit den Kindern kommunizieren und zwar in ihrer jeweiligen Muttersprache. Beim Erlernen der Sprache richtet sich unsere Kita nach der Methode des Immersionsansatzes, die die Sprache in die Alltagssituation und ins Spiel einbindet.",
+        "text-4": "Im Kitaalltag werden die Themen der Kinder aufgegriffen, Anregungen der Kinder wahrgenommen und in der Projektarbeit umgesetzt. Die Kita versteht sich als gemeinsamer Lern- und Lebensraum für Kinder und ErzieherInnen in einer familienähnlichen und vertrauensvollen Atmosphäre. Respekt, Rücksichtnahme, Toleranz und ein soziales Miteinander sind wichtige Aspekte im Alltag. Wesentliche Ziele in der pädagogischen Arbeit sind die Entwicklung von Selbstvertrauen, Selbstbewusstsein, Selbstständigkeit, Kompromissbereitschaft, Konfliktfähigkeit, Akzeptanz und eine partnerschaftliche Zusammenarbeit mit den Eltern."
+    },
+    "registration": {
+        "text-1" : "Folli Folletti ist eine kleine EKT, die 20 Kinder ab 1 Jahr bis zum Schuleintritt betreut. Für jeden Jahrgang gibt es 4 Kinder: 2 Mädchen und 2 Jungs. Jedes Jahr gibt es deswegen nur 4 neue Plätze für einjährige Kinder. Davon sind aber manchmal einige schon an Geschwisterkinder vergeben. Es kommt manchmal vor, dass einige Plätze im Laufe des Jahres frei werden, weil z.B. eine Familie wegzieht.",
+        "text-2": "Um bei Folli Folletti aufgenommen zu werden, braucht man nicht nur Glück, sondern sollte auch Zeit und Lust haben, aktiv an der Kitagestaltung teilzunehmen (z.B. Elterndienst im Fall von Abwesenheit der ErzieherInnen, handwerkliche Hilfe bei Reparaturen, Wäschedienst usw.).",
+        "text-3": "Bitte lassen Sie uns Ihre Daten zukommen (Vor- und Nachname und Geburtsdatum des Kindes, Kontaktdaten von mindestens einem Elternteil und einen kurzen Vorstellungsbrief). Wir werden uns dann mit Ihnen in Kontakt setzen.",
+        "text-4": "Bitte beachten Sie, dass die Kita sehr klein ist und die Kitaplätze wesentlich weniger sind als die Nachfrage, deswegen ist die Auswahl der Kinder extrem schwierig.",
+        "text-5": "WICHTIGE INFO: Für Kinder, die 2022 geboren sind, sind bereits alle Plätze vergeben.",
+        "title-1": "Infos",
+        "list-1": "Öffentliche Elterninitiativkita",
+        "list-2": "20 Kinder zwischen 1 und 6 Jahren",
+        "list-3": "4 Kinder, davon 2 Mädchen und 2 Jungs, für jeden Jahrgang",
+        "list-4": "Die Kinder sind auf 2 Gruppen verteilt: 8 Kinder von 1 bis 3 Jahre und 12 Kinder von 3 bis 6 Jahre",
+        "list-5": "Je 2 ErzieherInnen pro Gruppe, dazu kommen Zivildienstleistende, PraktikantInnen, Auszubildende"
     }
 }

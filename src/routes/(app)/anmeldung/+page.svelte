@@ -48,49 +48,46 @@
       <div class="container padding-medium pt-0">
   
         <p class="mb-4">
-            Folli Folletti ist eine kleine EKT, die 20 Kinder ab 1 Jahr bis zum Schuleintritt betreut. Für jeden Jahrgang gibt es 4 Kinder: 2 Mädchen und 2 Jungs. 
-            Jedes Jahr gibt es deswegen nur 4 neue Plätze für einjährige Kinder. Davon sind aber manchmal einige schon an Geschwisterkinder vergeben. 
-            Es kommt manchmal vor, dass einige Plätze im Laufe des Jahres frei werden, weil z.B. eine Familie wegzieht.
+            {$t("registration.text-1")} 
         </p>
 
         <p class="mb-4">
-            Um bei Folli Folletti aufgenommen zu werden, braucht man nicht nur Glück, sondern sollte auch Zeit und Lust haben, aktiv an der Kitagestaltung teilzunehmen 
-            (z.B. Elterndienst im Fall von Abwesenheit der ErzieherInnen, handwerkliche Hilfe bei Reparaturen, Wäschedienst usw.).
+            {$t("registration.text-2")} 
+       </p>
+
+        <p class="mb-4">
+            {$t("registration.text-3")} 
         </p>
 
         <p class="mb-4">
-            Bitte lassen Sie uns Ihre Daten zukommen (Vor- und Nachname und Geburtsdatum des Kindes, Kontaktdaten von mindestens einem Elternteil und einen kurzen Vorstellungsbrief). 
-            Wir werden uns dann mit Ihnen in Kontakt setzen.
-        </p>
-
-        <p class="mb-4">
-            Bitte beachten Sie, dass die Kita sehr klein ist und die Kitaplätze wesentlich weniger sind als die Nachfrage, deswegen ist die Auswahl der Kinder extrem schwierig.
+            {$t("registration.text-4")} 
         </p>
 
         <p>
-            <b>WICHTIGE INFO: Für Kinder, die 2022 geboren sind, sind bereits alle Plätze vergeben.  
+            <b>
+                {$t("registration.text-5")} 
             </b>
         </p>
 
         <h2 class="h-6 mb-4 pt-5">
-            Infos
+            {$t("registration.title-1")} 
         </h2>
       
         <ul>
             <li>
-                Öffentliche Elterninitiativkita
+                {$t("registration.list-1")} 
             </li>
             <li>
-                20 Kinder zwischen 1 und 6 Jahren
+                {$t("registration.list-2")} 
             </li>
             <li>
-                4 Kinder, davon 2 Mädchen und 2 Jungs, für jeden Jahrgang
+                {$t("registration.list-3")} 
             </li>
             <li>
-                Die Kinder sind auf 2 Gruppen verteilt: 8 Kinder von 1 bis 3 Jahre und 12 Kinder von 3 bis 6 Jahre
+                {$t("registration.list-4")} 
             </li>
             <li>
-                Je 2 ErzieherInnen pro Gruppe, dazu kommen Zivildienstleistende, PraktikantInnen, Auszubildende
+                {$t("registration.list-5")} 
             </li>
         </ul>
         

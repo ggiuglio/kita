@@ -62,7 +62,7 @@
               </li>
               <li>
                 <div>
-                  <select class="rounded px-1 h6 mb-0"
+                  <select class="rounded h6 mb-0"
                     bind:value={$locale}
                     on:change={(e) => onChangeLanguage(e.target.value)}
                    >

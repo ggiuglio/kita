@@ -146,7 +146,7 @@
         </p>
         <ul class="mb-4">
             <li>
-                {$t("association.list-15")}
+                {$t("association.list-15-1")}
             </li>
             <li>
                 {$t("association.list-16")}

@@ -216,8 +216,6 @@
 </div>
 </section>
 
-<h2 class="display-4 text-center mb-5">View our gallery</h2>
-
 <section id="gallery-play">
   <h2 class="h-6 text-center mb-2">{$t("home.playground")}</h2>
   <div class="container padding-medium pt-0">

@@ -105,7 +105,7 @@
               <ul class="dropdown-menu dropdown-menu-end animate slide mt-3 border-0 shadow">
                   <li class="py-1"><a on:click={() => goto('verein')}  href="#" class="dropdown-item" data-bs-dismiss="offcanvas" target="_blank">{$t("header.association")}</a></li>
                   <li class="py-1"><a on:click={() => goto('partner')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.partner")} </a></li>
-                  <li class="py-1"><a on:click={() => goto('/spenden')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.donations")} </a></li>
+                  <!-- <li class="py-1"><a on:click={() => goto('/spenden')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.donations")} </a></li> -->
                   <li class="py-1"><a on:click={() => goto('geschichte')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.history")} </a></li>
               </ul>
               </li>

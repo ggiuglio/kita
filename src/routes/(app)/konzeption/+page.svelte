@@ -7,7 +7,7 @@
   <div>
     <section id="konzeption-img">
         <div class="d-flex jarallax position-relative"
-        style="background-image: url(images/slider-image1.jpg); background-size: cover; background-repeat: no-repeat; height: 80vh; background-position: center; height: 80vh;">
+        style="background-image: url('documents/Spielen Bauklotze.jpg'); background-size: cover; background-repeat: no-repeat; height: 80vh; background-position: center; height: 80vh;">
 
         <div class="d-none d-md-flex justify-content-between position-absolute w-100 px-5 pt-5 mt-5">
           <div> <iconify-icon icon="solar:cloud-sun-2-outline"

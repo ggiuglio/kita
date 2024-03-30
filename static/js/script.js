@@ -65,8 +65,6 @@
 
   $(document).ready(function () {
 
-    console.log('calcolami')
-
 
    var swiper = new Swiper(".slider", {
       effect: "fade",

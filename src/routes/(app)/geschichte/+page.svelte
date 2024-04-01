@@ -84,17 +84,6 @@
         <p class="mb-2">
           {$t("history.text-7")}
         </p>
-        <p class="mb-4">
-          {$t("history.text-8")}
-          <a href="documents/vereinsmitgliedschaft.pdf" class="text-decoration-underline" download>
-            {$t("history.link-3")}
-          </a>
-          {$t("history.text-9")}
-          <a href="documents/satzung.pdf" class="text-decoration-underline" download>
-            {$t("history.link-4")}
-          </a>
-          {$t("history.text-10")}
-        </p>
       </div>
     </section>
   </div>

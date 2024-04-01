@@ -58,47 +58,59 @@
 
       <ul>
           <li>
-              Stiftung Pfefferwerk – Fehrbelliner Straße 92  –
-                10119 Berlin  – Tel. 030/ 67 30 54 54/-5  – Fax  030/ 67 30 54 56 www.stpw.org 
-                info@stpw.org
+              Stiftung Pfefferwerk 
+              – Fehrbelliner Straße 92, 10119 Berlin  
+              – Tel: +49 30 67 30 54 54/-5  
+              – <a href="www.stpw.org 
+                info@stpw.org" class="text-decoration-underline">www.stpw.org 
+                  info@stpw.org</a>
           </li>
           <li>
-              Veolia Stiftung Lindencorso – Unter den Linden 21- 10117 Berlin T: +49 30 53 65 82 40
-                mailto:info@veolia-stiftung.de http://www.veolia-stiftung.de 
-                http://twitter.com/VeoliaStiftung http://www.facebook.com/VeoliaStiftung
+              Veolia Stiftung Lindencorso 
+              – Unter den Linden 21, 10117 Berlin 
+              – Tel: +49 30 53 65 82 40
+              – Mail: <a href="mailto:info@veolia-stiftung.de" class="text-decoration-underline">info@veolia-stiftung.de</a> 
+              – <a href="http://www.veolia-stiftung.de" class="text-decoration-underline">http://www.veolia-stiftung.de </a>
+              – <a href="http://twitter.com/VeoliaStiftung" class="text-decoration-underline">http://twitter.com/VeoliaStiftung</a> 
+              – <a href="http://www.facebook.com/VeoliaStiftung" class="text-decoration-underline">http://www.facebook.com/VeoliaStiftung</a>
           </li>
           <li>
-              IVM Chemicals GmbH – Johannes-Kepler-Str. 3    D-71083 Herrenberg – Fon: +49 (0) 7032 2006-20
-                – Fax: +49 (0) 7032 2006-8820 – http://www.ivmchemicals.de/
+              IVM Chemicals GmbH
+              – Johannes-Kepler-Str. 3, 71083 Herrenberg 
+              – Tel: +49 7032 2006-20
+              – Fax: +49 7032 2006-8820 
+              – <a href="http://www.ivmchemicals.de" class="text-decoration-underline">http://www.ivmchemicals.de</a>
           </li>
           <li>
-              Verba Volant – Verein zur Förderung mehrsprachiger Bildung e.V. http://www.verbavolant-ev.de
+              Verba Volant 
+              – Verein zur Förderung mehrsprachiger Bildung e.V. 
+              – <a href="http://www.verbavolant-ev.de" class="text-decoration-underline">http://www.verbavolant-ev.de</a>
           </li>
           <li>
-              Si – Scuola Italiana Centro culturale italo-tedesco/Deutsch-italienisches Kulturzentrum Dunckerstr.
-                62 10439 Berlin 0049 30 44036975 
-                nfo@si-scuolaitaliana.de www.si-scuolaitaliana.de
+              Si – Scuola Italiana Centro culturale italo-tedesco/Deutsch-italienisches Kulturzentrum 
+              – Dunckerstr. 62, 10439 Berlin 
+              – Tel: +49 30 44 03 69 75 
+              – Mail: <a href="mailto:info@si-scuolaitaliana.de" class="text-decoration-underline">info@si-scuolaitaliana.de</a> 
+              – <a href="www.si-scuolaitaliana.de" class="text-decoration-underline">www.si-scuolaitaliana.de</a>
           </li>
           <li>
-              Deutsch-italienische Handelskammer – Märkisches Ufer 28 – 10179 Berlin 
-              – 030/24 31 04 0 – info@itkam.de
+              Deutsch-italienische Handelskammer 
+              – Märkisches Ufer 28, 10179 Berlin 
+              – Tel: +49 30 24 31 04 0 
+              – Mail: <a class="text-decoration-underline" href="mailto:info@itkam.de">info@itkam.de</a>
           </li>
           <li>
-              Mondo Azul http://www.mundoazul.de
+              Mondo Azul 
+              – <a href="http://www.mundoazul.de" class="text-decoration-underline">http://www.mundoazul.de</a>
           </li>
           <li>
-              Mondo Libro http://www.mondolibro.de
+              Mondo Libro 
+              – <a href="http://www.mondolibro.de" class="text-decoration-underline">http://www.mondolibro.de</a>
           </li>
       </ul> 
      
       <p>   
         {$t("partner.text-2")}
-      </p>
-      <p>
-        {$t("partner.text-3")} 
-        <a on:click={() => goto("/spenden")} href="#" class="text-decoration-underline">
-          {$t("partner.link-1")}
-        </a>
       </p>
 
       </div>

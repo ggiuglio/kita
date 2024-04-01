@@ -60,9 +60,6 @@
         </h2>
         <p class={"mb-4"}>
             {$t("association.text-1")}
-            <br />
-            {$t("association.text-1-1")}
-            <a href="documents/satzung.pdf" class="text-decoration-underline" download> {$t("association.link-1-1")} </a>
         </p>
 
         <h2 class="h-6 pt-4">

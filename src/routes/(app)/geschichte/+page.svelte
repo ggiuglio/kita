@@ -76,6 +76,7 @@
         <p class="mb-4">
           {$t("history.text-5")} <br />
           {$t("history.text-6")}
+          <a class="text-decoration-underline" href="/konzeption">{$t("history.link-2")}</a>.
         </p>
 
         <h2 class="h-6 pt-4">

@@ -7,8 +7,8 @@
         "history": "Storia",
         "concept": "Idea",
         "registration": "Iscrizione",
-        "contacts": "Contatti"
-
+        "contacts": "Contatti",
+        "board": "Annunci"
     },
     "home": {
         "more-than": "Più che un asilo",
@@ -26,6 +26,15 @@
             "list-2": "contribuire affinché l’asilo sia un’esperienza unica e memorabile per i vostri figli",
             "list-3": "fare parte di una “famiglia” internazionale di bambini, genitori ed educatori",
             "close": "… allora continuate a leggere."
+        },
+        "board": {
+            "title": "Servizio civile di 12 mesi in un asilo Italo tedesco",
+            "text-1": "Siamo una piccola iniziativa di genitori italo-tedeschi a Berlino Prenzlauer Berg e stiamo cercando un BFDler (",
+            "link-1":  "https://www.bundesfreiwilligendienst.de",
+            "text-2": ") dal 01.09.2024 per 12 mesi.",
+            "text-3": "E' l'equivalente del servizio civile in Italia.",
+            "text-4": "Abbiamo 20 bambini di età compresa tra 1 e 6 anni che sono attualmente seguiti da cinque insegnanti di madrelingua sia italiana che tedesca",
+            "link-2": "Dimmi di più"
         }
     },
     "about-us": {
@@ -150,5 +159,17 @@
         "list-3": "4 bambini, 2 femmine e 2 maschi, per ogni gruppo di età",
         "list-4": "I bambini sono divisi in 2 gruppi: 8 bambini da 1 a 3 anni e 12 bambini da 3 a 6 anni",
         "list-5": "Ci sono 2 educatori per gruppo, più persone che prestano servizio alla comunità, stagisti e tirocinanti"
-    }
+    },
+    "board": {
+        "title": "Servizio civile di 12 mesi in un asilo Italo tedesco",
+        "text-1": "Siamo una piccola iniziativa di genitori italo-tedeschi a Berlino Prenzlauer Berg e stiamo cercando un BFDler (",
+        "link-1":  "https://www.bundesfreiwilligendienst.de",
+        "text-2": ") dal 01.09.2024 per 12 mesi.",
+        "text-3": "E' l'equivalente del servizio civile in Italia.",
+        "text-4": "Abbiamo 20 bambini di età compresa tra 1 e 6 anni che sono attualmente seguiti da cinque insegnanti di madrelingua sia italiana che tedesca",
+        "text-5": "La vostra collaborazione consisterebbe nel seguire i bambini in tutte le attività dell'asilo: giocare, leggere loro libri, fare musica, sport e molto altro. Ci auguriamo responsabilità, spirito di iniziativa ed entusiasmo. Offriamo spazio per l'autorealizzazione, un'atmosfera di lavoro piacevole, un team dinamico e aperto. L'orario di lavoro settimanale va dalle 30 alle 38 ore.",
+        "text-6": "L'asilo è aperto dalle 8 alle 17. Il venerdì dalle 8 alle 16.",
+        "text-7": "Il rimborso spese per le 32 ore è di 450 Euro. Per chi fosse interessato può mandare cv e lettera motivazionale a",
+        "text-8": " "
+}
 }

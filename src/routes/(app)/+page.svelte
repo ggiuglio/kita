@@ -225,6 +225,33 @@
 </div>
 </section>
 
+<section id="board" class="jarallax"
+style="background-image: url(images/cta.jpg); background-repeat: no-repeat; background-position: center;">
+<div class="container padding-medium" >
+  <div class="offset-md-3 col-md-6 text-center ">
+
+    <div class="section-title">
+      <h2 class="display-4 mb-3 banner-title" style="color: #3C3C3C">
+        {$t("home.board.title")}
+      </h2>
+    </div>
+
+      <p style="color: #3C3C3C">
+        <span>{$t("home.board.text-1")}</span>
+        <a class="text-decoration-underline" href="https://www.bundesfreiwilligendienst.de" target="_blank">{$t("home.board.link-1")}</a>
+        <span>{$t("home.board.text-2")}</span>
+      </p>
+      <p style="color: #3C3C3C">
+        <span>{$t("home.board.text-3")}</span>
+        <span>{$t("home.board.text-4")}</span>
+      </p>
+
+      <a class="btn btn-primary mt-3" href="/neues">{$t("home.board.link-2")}</a>
+
+  </div>
+
+</section>
+
 <section id="gallery-play">
   <h2 class="h-6 text-center mb-2">{$t("home.playground")}</h2>
   <div class="container padding-medium pt-0">

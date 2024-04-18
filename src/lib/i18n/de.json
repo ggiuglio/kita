@@ -7,7 +7,8 @@
         "history": "Geschichte",
         "concept": "Konzeption",
         "registration": "Anmeldung",
-        "contacts": "Impressum"
+        "contacts": "Impressum",
+        "board": "Neues"
     },
     
     "home": {
@@ -25,6 +26,15 @@
             "list-2": "dazu beitragen möchten, dass der Kindergarten für Ihre Kinder zu einem einzigartigen und unvergesslichen Erlebnis wird",
             "list-3": "Teil einer internationalen 'Familie' von Kindern, Eltern und Erziehern sein wollen",
             "close": "... dann lesen Sie weiter."
+        },
+        "board": {
+            "title": "12-monatiger Zivildienst in einem italienisch-deutschen Kindergarten",
+            "text-1": "Wir sind eine kleine deutsch - italienische Elterninitiativ Kita in Berlin Prenzlauer Berg und suchen eine/n BFDler/in, (",
+            "link-1": "https://www.bundesfreiwilligendienst.de",
+            "text-2": ") die/der ab dem 01.09.2024 bei uns arbeiten möchte.",
+            "text-3": "  ",
+            "text-4": "Bei uns gibt es 20 Kinder im Alter zwischen 1 und 6 Jahren, die derzeit von drei Erzieherinnen und zwei Erziehern betreut werden (muttersprachlichen Italienischen und Deutschen)...",
+            "link-2": "Erzähl mir mehr"
         }
     },
     "about-us":{
@@ -146,5 +156,17 @@
         "list-3": "4 Kinder, davon 2 Mädchen und 2 Jungs, für jeden Jahrgang",
         "list-4": "Die Kinder sind auf 2 Gruppen verteilt: 8 Kinder von 1 bis 3 Jahre und 12 Kinder von 3 bis 6 Jahre",
         "list-5": "Je 2 ErzieherInnen pro Gruppe, dazu kommen Zivildienstleistende, PraktikantInnen, Auszubildende"
-    }
+    },
+    "board": {
+        "title": "12-monatiger Zivildienst in einem italienisch-deutschen Kindergarten",
+        "text-1": "Wir sind eine kleine deutsch - italienische Elterninitiativ Kita in Berlin Prenzlauer Berg und suchen eine/n BFDler/in, (",
+        "link-1": "https://www.bundesfreiwilligendienst.de",
+        "text-2": ") die/der ab dem 01.09.2024 bei uns arbeiten möchte.",
+        "text-3": "  ",
+        "text-4": "Bei uns gibt es 20 Kinder im Alter zwischen 1 und 6 Jahren, die derzeit von drei Erzieherinnen und zwei Erziehern betreut werden (muttersprachlichen Italienischen und Deutschen)...",
+        "text-5": " Deine Mitarbeit würde hauptsächlich in der Betreuung und Begleitung der Kinder zum Sport und Ausflügen und einigen hauswirtschaftlichen Aufgaben bestehen. Daneben bleibt auch noch Zeit, mit den Kindern zu spielen, ihnen Bücher vorzulesen, Musik zu machen und vieles mehr. Wir wünschen uns Freude am Umgang mit Kindern, selbstständiges und verantwortungsbewusstes Arbeiten, Ideenreichtum und natürlich die Lust, mit unseren Kindern zu lachen, tanzen, toben, turnen, malen und basteln. Wir bieten Raum zur Selbstverwirklichung, eine angenehme Arbeitsatmosphäre, ein dynamisches, aufgeschlossenes Team und ein schönes Arbeitsumfeld.",
+        "text-6": "Der Kindergarten ist von 8 bis 17 Uhr geöffnet. Freitags von 8 bis 16 Uhr.",
+        "text-7": "Die Aufwandsentschädigung für die 32 Stunden beträgt 450 Euro. Bei Interesse können Sie Ihren Lebenslauf und Ihr Motivationsschreiben an",
+        "text-8": "senden"
+        }
 }

@@ -47,19 +47,37 @@
     <section id="konzeption" class="pt-5">
       <div class="container padding-medium pt-0">
   
-      <p class="mb-4">
-        {$t("concept.text-1")}
-        <a href="https://www.google.com" target="_blank" class="text-decoration-underline">{$t("concept.link-1")}</a>
-        {$t("concept.text-2")}
-      </p>
+        <p class="mb-4">
+          {$t("concept.text-1")}
+          <a href="https://www.berlin.de/sen/jugend/familie-und-kinder/kindertagesbetreuung/berliner_bildungsprogramm_2014.pdf?ts=1699956340" download class="text-decoration-underline">{$t("concept.link-1")}</a>
+          {$t("concept.text-2")}
+        </p>
 
-      <p class="mb-4">
-        {$t("concept.text-3")}
-      </p>
+        <p class="mb-4">
+          {$t("concept.text-3")}
+        </p>
 
-      <p class="mb-4">
-        {$t("concept.text-4")}
-      </p>
+        <p class="mb-4">
+          {$t("concept.text-4")}
+        </p>
+
+        <div class="mb-4">
+            {$t("concept.text-5")}
+            <div>
+              {$t("concept.text-6")}
+              <ul>
+                <li>
+                  {$t("concept.list-1")}
+                </li>
+                <li>
+                  {$t("concept.list-2")}
+                </li>
+                <li>
+                  {$t("concept.list-3")}
+                </li>
+              </ul>
+            </div>
+          </div>
 
       </div>
     </section>

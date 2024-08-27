@@ -219,7 +219,7 @@
           {$t("home.about-us.close")}
         </div>
         
-        <a class="btn btn-primary mt-3" href="uber-uns">Über uns</a>
+        <a class="btn btn-primary mt-3" href="uber-uns">{$t("header.about-us")}</a>
       </div>
     </div>
 </div>

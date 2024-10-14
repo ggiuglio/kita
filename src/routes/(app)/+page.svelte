@@ -224,7 +224,7 @@
     </div>
 </div>
 </section>
-
+<!-- 
 <section id="board" class="jarallax"
 style="background-image: url(images/cta.jpg); background-repeat: no-repeat; background-position: center;">
 <div class="container padding-medium" >
@@ -250,7 +250,7 @@ style="background-image: url(images/cta.jpg); background-repeat: no-repeat; back
 
   </div>
 
-</section>
+</section> -->
 
 <section id="gallery-play">
   <h2 class="h-6 text-center mb-2">{$t("home.playground")}</h2>

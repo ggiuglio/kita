@@ -107,7 +107,7 @@
                   <li class="py-1"><a on:click={() => goto('partner')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.partner")} </a></li>
                   <!-- <li class="py-1"><a on:click={() => goto('/spenden')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.donations")} </a></li> -->
                   <li class="py-1"><a on:click={() => goto('geschichte')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.history")} </a></li>
-                  <li class="py-1"><a on:click={() => goto('neues')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.board")} </a></li>
+                  <!-- <li class="py-1"><a on:click={() => goto('neues')} href="#" class="dropdown-item" data-bs-dismiss="offcanvas">{$t("header.board")} </a></li> -->
               </ul>
               </li>
               <li class="nav-item px-3 py-2 py-lg-0">

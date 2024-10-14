@@ -301,7 +301,7 @@ style="background-image: url(images/cta.jpg); background-repeat: no-repeat; back
             class="post-image img-fluid rounded-4"></a>
       </div>
       <div class="entry-item col-md-4 my-3">
-        <a href="documents/Boot im Spiel.jpg" title="Kindergarten" class="image-link"><img src="documents/thumbnails/thumbnails/Boot im Spiel.jpg"
+        <a href="documents/Boot im Spiel.jpg" title="Kindergarten" class="image-link"><img src="documents/thumbnails/Boot im Spiel.jpg"
             class=" post-image img-fluid rounded-4"></a>
       </div>
       <div class="entry-item col-md-4 my-3">

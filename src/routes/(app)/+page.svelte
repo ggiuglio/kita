@@ -95,7 +95,7 @@
           </div>
 
           <div class="banner-content text-center m-auto" data-aos="zoom-out">
-            <h2 class="banner-title display-1 text-white mb-0">Elterninitiative</h2>
+            <h2 class="banner-title display-1 text-white mb-0">{$t("header.slider-1")}</h2>
             <a href="about" class="btn btn-primary mt-3">{$t("header.about-us")}</a>
           </div>
         </div>
@@ -131,7 +131,7 @@
           </div>
 
           <div class="banner-content text-center m-auto" data-aos="zoom-out">
-            <h2 class="banner-title display-1 text-white mb-0">{$t("home.more-than")}</h2>
+            <h2 class="banner-title display-1 text-white mb-0">{$t("header.slider-2")}</h2>
             <a href="uber-uns" class="btn btn-primary mt-3">{$t("header.about-us")}</a>
           </div>
         </div>
@@ -150,41 +150,7 @@
     </div>
 </section>
 
-<section id="categories">
-<div class="container padding-medium">
-    <div class="row">
-    <div class="col my-4 my-lg-0 text-center">
-        <a href="#gallery-play" class="categories-item">
-        <iconify-icon class="category-icon bg-red text-white p-5 rounded-circle"
-            icon="mdi:playground-slide"></iconify-icon>
-        <h2 class="mt-2">{$t("home.playground")}</h2>
-        </a>
-    </div>
-    <div class="col my-4 my-lg-0 text-center">
-        <a href="#gallery-rooms" class="categories-item">
-        <iconify-icon class="category-icon bg-green text-white p-5 rounded-circle"
-            icon="material-symbols:house-outline"></iconify-icon>
-        <h2 class="mt-2">{$t("home.rooms")}</h2>
-        </a>
-    </div>
-    <div class="col my-4 my-lg-0 text-center">
-        <a href="#gallery-activity" class="categories-item">
-        <iconify-icon class="category-icon bg-blue text-white p-5 rounded-circle" icon="mdi:art"></iconify-icon>
-        <h2 class="mt-2">{$t("home.activity")}</h2>
-        </a>
-    </div>
-    <div class="col my-4 my-lg-0 text-center">
-        <a href="#gallery-trip" class="categories-item">
-        <iconify-icon class="category-icon bg-yellow text-white p-5 rounded-circle"
-            icon="material-symbols:abc-rounded"></iconify-icon>
-        <h2 class="mt-2">{$t("home.trips")} </h2>
-        </a>
-    </div>
-    </div>
-</div>
-</section>
-
-<section id="about-us">
+<section id="about-us" style="padding-top:200px">
   <div class="container padding-medium pt-0">
     <div class="row align-items-center">
       <div class="col-md-6">

@@ -8,7 +8,9 @@
         "concept": "Idea",
         "registration": "Iscrizione",
         "contacts": "Contatti",
-        "board": "Annunci"
+        "board": "Annunci",
+        "slider-1": "15 anni di Folli Folletti",
+        "slider-2": "Crescere bilingui"
     },
     "home": {
         "more-than": "Più che un asilo",
@@ -19,7 +21,7 @@
         "about-us":
         {
             "title": "Folli Folletti, Più Che Un Asilo",
-            "more-than": "Mehr als ein Kindergarten",
+            "more-than": "Più che un asilo",
             "text": "Se cercate un asilo che richieda il minimo impegno da parte dei genitori, Folli Folletti sicuramente non fa per voi.",
             "text-2": "Se invece volete",
             "list-1": "partecipare attivamente alla vita dell’asilo",

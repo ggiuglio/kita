@@ -81,7 +81,7 @@
   <nav id="primary-header" class="navbar navbar-expand-lg py-3">
       <div class="container">
       <a class="navbar-brand" href="/">
-          <img src="images/folli-folletti-logo.png" style="width: 250px" class="logo img-fluid">
+          <img src="images/folli-logo_blank.svg" style="width: 250px" class="logo img-fluid">
       </a>
       <button class="navbar-toggler border-0 d-flex d-lg-none order-3 p-2 shadow-none" type="button"
           data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false">
@@ -134,7 +134,7 @@
 <footer id="footer" class="bg-gray">
   <div class="container text-center py-4">
     <a class="navbar-brand w-25" href="/">
-      <img src="images/folli-folletti-logo.png" style="width: 250px" class="logo img-fluid">
+      <img src="images/folli-logo_blank.svg" style="width: 250px" class="logo img-fluid">
     </a>
     <ul class="info text-center list-unstyled mt-4">
       <li class="location text-capitalize mb-2 d-flex justify-content-center align-items-center">

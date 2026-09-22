@@ -51,11 +51,14 @@ CSS STRUCTURE:
 /** 1. VARIABLES
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #FAA808;
+  --accent-color: #e12839;
   --black-color: #3C3C3C;
   --light-black-color: #343536;
-  --dark-color: #797876;
-  --primary-color: #FAA808;
+  --dark-color: #1a1a1a;
+  --primary-color: #e12839;
+  --nav-link-color: #1a1a1a;
+  --link-color: #156b55;
+  --link-hover-color: #1a8469;
   --primary-color-200: #E8F0F1;
   --primary-color-400: #c4e9ed;
   --gray-color: #777F81;
@@ -67,7 +70,7 @@ CSS STRUCTURE:
   --bs-primary-text-emphasis: var(--primary-color);
 
   --bs-light-rgb: rgba(255, 255, 255);
-  --bs-primary-rgb: rgb(250, 168, 8);
+  --bs-primary-rgb: rgb(225, 40, 57);
   --light-color: #FFFFFF;
   --swiper-theme-color: #111 !important;
   --cadet-blue-color: #9AB4B7;
@@ -75,7 +78,8 @@ CSS STRUCTURE:
 
 /* Fonts */
 :root {
-  --heading-font: "Grand Hotel", cursive;
+  --heading-font: "Lora", serif;
+  --display-font: "Grand Hotel", cursive;
   --body-font: "Lora", serif;
 }
 
@@ -113,13 +117,13 @@ p {
 }
 
 a {
-  color: inherit;
+  color: var(--link-color);
   text-decoration: none;
   transition: 0.3s ease-in-out;
 }
 
 a:hover {
-  color: var(--primary-color);
+  color: var(--link-hover-color);
 }
 
 .text-light {
@@ -206,12 +210,43 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--black-color);
+  color: var(--link-color);
   font-family: var(--heading-font);
   text-transform: capitalize;
   font-weight: 400;
   line-height: 3rem;
   letter-spacing: 0.0675rem;
+}
+
+/* In-content sub-headings: <h2 class="h-6"> sitting above body copy */
+.h-6 {
+  font-size: 1.125rem;
+  line-height: 1.4;
+}
+
+/* Gallery section titles are top-level headings, not sub-headings */
+section[id^="gallery-"] .h-6 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+}
+
+/* Slider/hero banner titles keep the script display face. Scoped to
+   .display-1 so the .banner-title on the board heading, which only
+   borrows the text-shadow, stays in the body serif. */
+.banner-title.display-1 {
+  font-family: var(--display-font);
+}
+
+/* Lora at display-4 runs optically larger than the script face it
+   replaced, so scale that ramp to ~70% */
+.display-4 {
+  font-size: calc(1.053rem + 1.928vw);
+}
+
+@media (min-width: 1200px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
 }
 
 /* Section Title */
@@ -295,16 +330,16 @@ h6 {
   --bs-btn-bg: var(--accent-color);
   --bs-btn-border-color: var(--accent-color);
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #f0a206;
-  --bs-btn-hover-border-color: #f0a206;
+  --bs-btn-hover-bg: #de1f31;
+  --bs-btn-hover-border-color: #de1f31;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #f0a206;
-  --bs-btn-active-border-color: #f0a206;
+  --bs-btn-active-bg: #de1f31;
+  --bs-btn-active-border-color: #de1f31;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #f0a206;
-  --bs-btn-disabled-border-color: #f0a206;
+  --bs-btn-disabled-bg: #de1f31;
+  --bs-btn-disabled-border-color: #de1f31;
 }
 
 .btn-outline-primary {
@@ -353,13 +388,14 @@ h6 {
 /* Dropdown
 ------------------------------------------------------------- */
 .dropdown-item {
-  color: var(--dark-color);
+  color: var(--nav-link-color);
+  font-weight: 600;
 }
 
 .dropdown-item.active,
 .dropdown-item:hover,
 .dropdown-item:active {
-  color: var(--dark-color);
+  color: var(--link-color);
   background-color: var(--bs-gray-100);
 }
 
@@ -451,6 +487,10 @@ svg.primary-color-500 {
 /* 4.1 Header
 /*----------------------------------------------*/
 
+.header-top {
+  background-color: var(--link-color) !important;
+}
+
 li.social-icon {
   opacity: 0.6;
   cursor: pointer;
@@ -462,17 +502,22 @@ li.social-icon:hover {
 
 a.nav-link {
   text-transform: capitalize;
-  color: var(--dark-color);
+  color: var(--nav-link-color);
+  font-weight: 600;
 }
 
 a.nav-link:focus {
-  color: var(--dark-color);
+  color: var(--nav-link-color);
 }
 
 a.nav-link.active,
 a.nav-link:hover {
-  color: var(--primary-color) !important;
+  color: var(--link-color) !important;
   outline: none;
+}
+
+a.nav-link.active {
+  font-weight: 700;
 }
 
 #primary-header .dropdown .search::after {
@@ -749,7 +794,7 @@ a.hover-color h2 {
 }
 
 a.hover-color h2:hover {
-  color: var(--accent-color);
+  color: var(--link-color);
 }
 
 
